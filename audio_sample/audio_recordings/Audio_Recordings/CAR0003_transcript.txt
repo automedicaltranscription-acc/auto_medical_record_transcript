@@ -1,206 +1,206 @@
-[0.0s->1.8s] Speaker: What brings you in here today?
-[1.8s->11.1s] Speaker: Yeah, I've just been feeling breathless and it's getting worse, so I wanted to check it
-[11.1s->12.6s] Speaker: out.
-[12.6s->13.6s] Speaker: Okay.
-[13.6s->16.4s] Speaker: And when did you first start feeling breathless?
-[16.4s->18.5s] Speaker: About two months ago.
-[18.5s->20.4s] Speaker: Okay.
-[20.4s->28.3s] Speaker: And did it come on about like gradually through time or suddenly just happened?
-[28.3s->33.1s] Speaker: I guess gradually, yeah.
-[33.1s->38.2s] Speaker: And how often do you feel breathless?
-[38.2s->48.9s] Speaker: I'd say it's worse when I walk more than 50 meters.
-[48.9s->53.1s] Speaker: That's kind of the main trigger, just exertion.
-[53.1s->59.0s] Speaker: And were you able to walk normally more than 50 meters before two months?
-[59.0s->63.4s] Speaker: Yeah, three months ago I was fine.
-[63.4s->65.8s] Speaker: Okay.
-[65.8s->68.8s] Speaker: Do you have any other symptoms like cough or chest pain?
-[68.8s->73.5s] Speaker: I have a cough sometimes, yeah.
-[73.5s->77.0s] Speaker: Okay, but nothing like constant?
-[77.0s->78.7s] Speaker: No.
-[78.7s->81.2s] Speaker: Okay.
-[81.2s->90.7s] Speaker: Do you have any wet cough or any productive cough where you're producing sputum or phlegm?
-[90.7s->95.8s] Speaker: Yeah, I guess I'd say I have this frothy sputum.
-[95.8s->98.0s] Speaker: Okay.
-[98.0s->103.8s] Speaker: And has your breathlessness been getting any worse at all over the last two months?
-[103.8s->107.7s] Speaker: I would say so, yes.
-[107.7s->108.7s] Speaker: Okay.
-[108.7s->116.6s] Speaker: And you mentioned like exertion makes it worse, but anything else like going outside or exposure
-[116.6s->120.5s] Speaker: to any chemicals that makes it worse?
-[120.5s->123.6s] Speaker: No, I don't think so.
-[123.6s->124.6s] Speaker: Okay.
-[124.6s->126.2s] Speaker: And how about positional changes?
-[126.2s->129.7s] Speaker: Does lying flat at all make it worse?
-[129.7s->131.1s] Speaker: I would say so, yes.
-[131.1s->135.8s] Speaker: Yeah, I'm basically gasping for air when I lay down.
-[135.8s->137.1s] Speaker: Okay.
-[137.1s->141.2s] Speaker: And do you ever find yourself waking up at night in the middle of the night to catch
-[141.2s->142.3s] Speaker: your breath?
-[142.3s->143.3s] Speaker: No.
-[143.3s->144.5s] Speaker: No?
-[144.5s->146.0s] Speaker: Okay.
-[146.0s->150.0s] Speaker: And when do you feel the breathlessness the most?
-[150.0s->154.4s] Speaker: Is it more so during the day or at night?
-[154.4s->157.7s] Speaker: I guess it's worse at night because I'm laying down.
-[157.7s->159.3s] Speaker: Okay.
-[159.3s->162.9s] Speaker: All right.
-[163.3s->170.0s] Speaker: And in terms of how many flights of stairs you can climb before you start feeling breathless,
-[170.0s->173.7s] Speaker: do you have a number?
-[173.7s->179.1s] Speaker: I'd say like three, four.
-[179.1s->183.6s] Speaker: Three or four steps, okay.
-[183.6s->192.8s] Speaker: And was there anything new that happened in your life recently, any new medical diagnosis
-[192.8s->200.1s] Speaker: recently or any travel that happened before you started having these symptoms?
-[200.1s->204.0s] Speaker: No, nothing like that.
-[204.0s->209.6s] Speaker: And prior to the two months, have you ever had any similar experiences?
-[209.6s->210.6s] Speaker: Prior to two months?
-[210.6s->211.6s] Speaker: No.
-[211.6s->212.7s] Speaker: No.
-[212.7s->214.5s] Speaker: No?
-[214.5s->215.7s] Speaker: Okay.
-[215.7s->221.8s] Speaker: And does anything make it better, like any positional changes makes the breathlessness
-[221.8s->225.4s] Speaker: go away?
-[225.4s->232.1s] Speaker: I guess when I'm not laying down or when I'm laying down, I try to add pillows, stack pillows
-[232.1s->235.0s] Speaker: so that it gets better.
-[235.0s->237.3s] Speaker: Okay.
-[237.3s->238.3s] Speaker: Okay.
-[238.3s->245.7s] Speaker: And are you having any other symptoms like sore throat, runny nose, chest pain, dizziness,
-[245.7s->247.8s] Speaker: anything like that?
-[247.8s->248.8s] Speaker: No.
-[248.8s->249.9s] Speaker: No?
-[249.9s->251.9s] Speaker: Okay.
-[251.9s->255.9s] Speaker: Have you recently traveled outside of the country?
-[255.9s->258.2s] Speaker: No.
-[258.3s->261.9s] Speaker: Have you recently had any surgeries?
-[261.9s->265.2s] Speaker: No recent surgeries, no.
-[265.2s->268.8s] Speaker: Any headache, nausea or vomiting?
-[268.8s->271.6s] Speaker: No.
-[271.6s->275.0s] Speaker: Any fevers or chills or night sweats?
-[275.0s->277.9s] Speaker: No.
-[277.9s->281.7s] Speaker: Do you feel increasingly fatigued throughout the day?
-[281.7s->282.7s] Speaker: No.
-[282.7s->290.9s] Speaker: Yes, I'd say so, yeah.
-[290.9s->293.9s] Speaker: And any changes in your bowel movement at all?
-[293.9s->298.4s] Speaker: No.
-[298.4s->301.9s] Speaker: Any chest pain at all within the last two months?
-[302.3s->303.3s] Speaker: No.
-[303.3s->306.4s] Speaker: No chest pain.
-[306.4s->315.5s] Speaker: Any swelling in your legs, ankles or in your hands and arms?
-[315.5s->317.9s] Speaker: There is some swelling.
-[317.9s->318.9s] Speaker: Okay.
-[318.9s->322.6s] Speaker: And where are you getting the swelling?
-[322.6s->323.6s] Speaker: Around my legs.
-[323.6s->325.4s] Speaker: Okay.
-[325.4s->328.5s] Speaker: And when did you first notice this?
-[328.5s->332.1s] Speaker: Around the same time actually, two months ago.
-[332.1s->334.0s] Speaker: Okay.
-[334.0s->337.8s] Speaker: Have you noticed any kind of fevers at all?
-[337.8s->338.8s] Speaker: No.
-[338.8s->340.0s] Speaker: No?
-[340.0s->341.1s] Speaker: Okay.
-[341.1s->346.0s] Speaker: Have you been in contact with anyone that has been ill recently?
-[346.0s->347.0s] Speaker: No.
-[347.0s->349.2s] Speaker: No.
-[349.2s->352.5s] Speaker: And have you been coughing up any blood at all?
-[352.5s->353.5s] Speaker: No.
-[353.5s->357.3s] Speaker: Any weight loss?
-[357.3s->358.9s] Speaker: No.
-[358.9s->363.4s] Speaker: Any night sweats or chills?
-[363.4s->365.0s] Speaker: No.
-[365.0s->366.0s] Speaker: Okay.
-[366.0s->372.2s] Speaker: Any, apart from the breathlessness and laying down, any other issues with your sleep?
-[372.2s->373.2s] Speaker: No.
-[373.8s->375.8s] Speaker: Any changes in your appetite?
-[375.8s->377.4s] Speaker: No.
-[377.4s->384.2s] Speaker: Have you had any recent infections like a cold at all?
-[384.2s->386.8s] Speaker: No.
-[386.8s->391.3s] Speaker: Any exposure to tuberculosis in the past?
-[391.3s->394.6s] Speaker: Not that I know of.
-[394.6s->400.6s] Speaker: Any exposure to fumes or dust within your home or work environment?
-[400.6s->401.6s] Speaker: No.
-[401.6s->407.3s] Speaker: Any animals or pets in the house?
-[407.3s->408.3s] Speaker: No.
-[408.3s->409.3s] Speaker: No.
-[409.3s->415.6s] Speaker: And in terms of your past medical history, has anyone told you that you have anything
-[415.6s->424.2s] Speaker: like COPD or any cardiovascular issues like high blood pressure, cholesterol?
-[424.2s->432.1s] Speaker: Yeah, so I have high blood pressure, diabetes, and high cholesterol.
-[432.1s->433.8s] Speaker: Okay.
-[433.8s->435.8s] Speaker: Okay.
-[435.8s->438.8s] Speaker: And do you take any medications for this?
-[438.8s->439.8s] Speaker: Yep.
-[439.8s->445.3s] Speaker: So I take aspirin, ramaprol, and simulastatin.
-[445.3s->450.3s] Speaker: And have you ever had any chest pain or a heart attack in the past?
-[450.3s->455.2s] Speaker: Yeah, actually I had a heart attack four years ago.
-[455.2s->456.2s] Speaker: Okay.
-[456.2s->461.8s] Speaker: And do you remember what they did for your heart attack?
-[461.8s->466.2s] Speaker: Something like a stent or something.
-[466.2s->467.2s] Speaker: Okay.
-[467.2s->469.2s] Speaker: And since then you have been on these medications?
-[469.2s->470.2s] Speaker: Yes.
-[470.2s->471.8s] Speaker: Okay.
-[471.8s->479.4s] Speaker: And after they managed your heart attack, have you ever had similar symptoms when you
-[479.4s->480.4s] Speaker: had your heart attack?
-[480.4s->482.7s] Speaker: No.
-[482.7s->483.8s] Speaker: No.
-[483.8s->484.8s] Speaker: Nothing like that.
-[484.8s->486.9s] Speaker: Okay.
-[486.9s->489.9s] Speaker: Do you have any allergies to any medications?
-[489.9s->491.4s] Speaker: No.
-[491.4s->493.4s] Speaker: Any environmental allergies?
-[493.4s->494.4s] Speaker: No.
-[496.7s->506.1s] Speaker: And have you previously had any surgeries in the past?
-[506.1s->508.1s] Speaker: I guess the stenting.
-[508.1s->510.3s] Speaker: Just the stenting.
-[510.3s->515.3s] Speaker: And apart from that, have you had any other previous hospitalizations?
-[515.3s->516.3s] Speaker: No.
-[516.3s->518.8s] Speaker: Okay.
-[518.8s->525.3s] Speaker: Any family history of any cancers or heart attacks?
-[525.3s->528.3s] Speaker: My father died of a heart attack when he was 60.
-[528.3s->534.7s] Speaker: And currently, do you work at all?
-[534.7s->537.3s] Speaker: I do.
-[537.3s->541.9s] Speaker: I work as a cashier.
-[541.9s->544.0s] Speaker: Okay.
-[544.0s->551.2s] Speaker: And has the shortness of breath been affecting your daily routine at home or at work at all?
-[551.2s->553.2s] Speaker: Yeah, I would say so.
-[553.2s->560.5s] Speaker: It's been hard to make it to work and then standing around all day or if I have to go
-[560.5s->564.5s] Speaker: out with something and exert myself too much, I get short of breath.
-[564.5s->566.1s] Speaker: Okay.
-[566.1s->572.6s] Speaker: And at home, do you currently live with anyone or do you live by yourself?
-[572.6s->575.6s] Speaker: I live by myself.
-[575.6s->577.6s] Speaker: And do you live in an apartment or a house?
-[577.6s->580.4s] Speaker: I live in an apartment.
-[580.4s->581.5s] Speaker: Okay.
-[581.5s->589.5s] Speaker: And are there any exposures like dust or mold or asbestos in your home environment?
-[589.5s->590.5s] Speaker: No.
-[590.5s->594.4s] Speaker: And currently, do you smoke?
-[594.4s->596.2s] Speaker: Not right now.
-[596.2s->598.2s] Speaker: I used to smoke.
-[598.2s->602.8s] Speaker: I used to smoke 10 a day for like 40 years.
-[602.8s->604.3s] Speaker: Okay.
-[604.3s->609.5s] Speaker: And do you use any recreational drugs like marijuana?
-[609.5s->610.5s] Speaker: No.
-[610.5s->615.1s] Speaker: Any alcohol?
-[615.1s->616.1s] Speaker: No.
-[616.1s->628.0s] Speaker: And in terms of your daily routine, do you feel that you get three meals a day while
-[628.0s->630.0s] Speaker: balanced diet?
-[630.0s->633.6s] Speaker: I would say well balanced.
-[633.6s->637.6s] Speaker: I'm trying to eat healthier but it doesn't always happen.
-[637.6s->639.1s] Speaker: Okay.
-[639.1s->640.1s] Speaker: And how about exercise?
-[640.1s->645.1s] Speaker: Do you find that your exercise levels or activity levels have gone down in the last
-[645.1s->646.1s] Speaker: two months?
-[646.1s->647.1s] Speaker: Yes.
-[647.1s->648.6s] Speaker: Okay.
-[648.6s->651.3s] Speaker: All right.
-[651.3s->656.3s] Speaker: Is there any other questions or concerns that you have or something I may have missed to
-[656.3s->658.9s] Speaker: ask you today?
-[658.9s->660.9s] Speaker: No, I don't think so.
-[660.9s->662.2s] Speaker: Okay.
-[662.2s->670.7s] Speaker: So based on what we talked about from your swelling as well as breathlessness while laying
-[670.7s->677.9s] Speaker: down on your past history of a heart attack and high cholesterol, it may be likely with
-[677.9s->683.9s] Speaker: the medications you're on as well as your history that you might be having what's called
-[683.9s->685.9s] Speaker: a congestive heart failure.
-[685.9s->686.9s] Speaker: Okay.
-[687.9s->694.9s] Speaker: We will need to do further investigations to determine if that is what it is and if
-[694.9s->706.0s] Speaker: we need to get you on something like Lasix or a diuretic to get rid of some of the fluid
-[706.0s->710.0s] Speaker: that's filling up in your body which may be caused by heart failure.
-[710.0s->711.0s] Speaker: Okay.
-[711.0s->714.0s] Speaker: So we'll do some investigations and then go from there.
+[0.0s->1.8s] Doctor: What brings you in here today?
+[1.8s->11.1s] Patient: Yeah, I've just been feeling breathless and it's getting worse, so I wanted to check it
+[11.1s->12.6s] Patient: out.
+[12.6s->13.6s] Doctor: Okay.
+[13.6s->16.4s] Doctor: And when did you first start feeling breathless?
+[16.4s->18.5s] Patient: About two months ago.
+[18.5s->20.4s] Doctor: Okay.
+[20.4s->28.3s] Doctor: And did it come on about like gradually through time or suddenly just happened?
+[28.3s->33.1s] Patient: I guess gradually, yeah.
+[33.1s->38.2s] Doctor: And how often do you feel breathless?
+[38.2s->48.9s] Patient: I'd say it's worse when I walk more than 50 meters.
+[48.9s->53.1s] Patient: That's kind of the main trigger, just exertion.
+[53.1s->59.0s] Doctor: And were you able to walk normally more than 50 meters before two months?
+[59.0s->63.4s] Patient: Yeah, three months ago I was fine.
+[63.4s->65.8s] Doctor: Okay.
+[65.8s->68.8s] Doctor: Do you have any other symptoms like cough or chest pain?
+[68.8s->73.5s] Patient: I have a cough sometimes, yeah.
+[73.5s->77.0s] Doctor: Okay, but nothing like constant?
+[77.0s->78.7s] Patient: No.
+[78.7s->81.2s] Doctor: Okay.
+[81.2s->90.7s] Doctor: Do you have any wet cough or any productive cough where you're producing sputum or phlegm?
+[90.7s->95.8s] Patient: Yeah, I guess I'd say I have this frothy sputum.
+[95.8s->98.0s] Doctor: Okay.
+[98.0s->103.8s] Doctor: And has your breathlessness been getting any worse at all over the last two months?
+[103.8s->107.7s] Patient: I would say so, yes.
+[107.7s->108.7s] Doctor: Okay.
+[108.7s->116.6s] Doctor: And you mentioned like exertion makes it worse, but anything else like going outside or exposure
+[116.6s->120.5s] Doctor: to any chemicals that makes it worse?
+[120.5s->123.6s] Patient: No, I don't think so.
+[123.6s->124.6s] Doctor: Okay.
+[124.6s->126.2s] Doctor: And how about positional changes?
+[126.2s->129.7s] Doctor: Does lying flat at all make it worse?
+[129.7s->131.1s] Patient: I would say so, yes.
+[131.1s->135.8s] Patient: Yeah, I'm basically gasping for air when I lay down.
+[135.8s->137.1s] Doctor: Okay.
+[137.1s->141.2s] Doctor: And do you ever find yourself waking up at night in the middle of the night to catch
+[141.2s->142.3s] Doctor: your breath?
+[142.3s->143.3s] Patient: No.
+[143.3s->144.5s] Doctor: No?
+[144.5s->146.0s] Doctor: Okay.
+[146.0s->150.0s] Doctor: And when do you feel the breathlessness the most?
+[150.0s->154.4s] Doctor: Is it more so during the day or at night?
+[154.4s->157.7s] Patient: I guess it's worse at night because I'm laying down.
+[157.7s->159.3s] Doctor: Okay.
+[159.3s->162.9s] Doctor: All right.
+[163.3s->170.0s] Doctor: And in terms of how many flights of stairs you can climb before you start feeling breathless,
+[170.0s->173.7s] Doctor: do you have a number?
+[173.7s->179.1s] Patient: I'd say like three, four.
+[179.1s->183.6s] Doctor: Three or four steps, okay.
+[183.6s->192.8s] Doctor: And was there anything new that happened in your life recently, any new medical diagnosis
+[192.8s->200.1s] Doctor: recently or any travel that happened before you started having these symptoms?
+[200.1s->204.0s] Patient: No, nothing like that.
+[204.0s->209.6s] Doctor: And prior to the two months, have you ever had any similar experiences?
+[209.6s->210.6s] Patient: Prior to two months?
+[210.6s->211.6s] Patient: No.
+[211.6s->212.7s] Doctor: No.
+[212.7s->214.5s] Doctor: No?
+[214.5s->215.7s] Doctor: Okay.
+[215.7s->221.8s] Doctor: And does anything make it better, like any positional changes makes the breathlessness
+[221.8s->225.4s] Doctor: go away?
+[225.4s->232.1s] Patient: I guess when I'm not laying down or when I'm laying down, I try to add pillows, stack pillows
+[232.1s->235.0s] Patient: so that it gets better.
+[235.0s->237.3s] Doctor: Okay.
+[237.3s->238.3s] Doctor: Okay.
+[238.3s->245.7s] Doctor: And are you having any other symptoms like sore throat, runny nose, chest pain, dizziness,
+[245.7s->247.8s] Doctor: anything like that?
+[247.8s->248.8s] Patient: No.
+[248.8s->249.9s] Doctor: No?
+[249.9s->251.9s] Doctor: Okay.
+[251.9s->255.9s] Doctor: Have you recently traveled outside of the country?
+[255.9s->258.2s] Patient: No.
+[258.3s->261.9s] Doctor: Have you recently had any surgeries?
+[261.9s->265.2s] Patient: No recent surgeries, no.
+[265.2s->268.8s] Doctor: Any headache, nausea or vomiting?
+[268.8s->271.6s] Patient: No.
+[271.6s->275.0s] Doctor: Any fevers or chills or night sweats?
+[275.0s->277.9s] Patient: No.
+[277.9s->281.7s] Doctor: Do you feel increasingly fatigued throughout the day?
+[281.7s->282.7s] Patient: No.
+[282.7s->290.9s] Patient: Yes, I'd say so, yeah.
+[290.9s->293.9s] Doctor: And any changes in your bowel movement at all?
+[293.9s->298.4s] Patient: No.
+[298.4s->301.9s] Doctor: Any chest pain at all within the last two months?
+[302.3s->303.3s] Patient: No.
+[303.3s->306.4s] Doctor: No chest pain.
+[306.4s->315.5s] Doctor: Any swelling in your legs, ankles or in your hands and arms?
+[315.5s->317.9s] Patient: There is some swelling.
+[317.9s->318.9s] Doctor: Okay.
+[318.9s->322.6s] Doctor: And where are you getting the swelling?
+[322.6s->323.6s] Patient: Around my legs.
+[323.6s->325.4s] Doctor: Okay.
+[325.4s->328.5s] Doctor: And when did you first notice this?
+[328.5s->332.1s] Patient: Around the same time actually, two months ago.
+[332.1s->334.0s] Doctor: Okay.
+[334.0s->337.8s] Doctor: Have you noticed any kind of fevers at all?
+[337.8s->338.8s] Patient: No.
+[338.8s->340.0s] Doctor: No?
+[340.0s->341.1s] Doctor: Okay.
+[341.1s->346.0s] Doctor: Have you been in contact with anyone that has been ill recently?
+[346.0s->347.0s] Patient: No.
+[347.0s->349.2s] Doctor: No.
+[349.2s->352.5s] Doctor: And have you been coughing up any blood at all?
+[352.5s->353.5s] Patient: No.
+[353.5s->357.3s] Doctor: Any weight loss?
+[357.3s->358.9s] Patient: No.
+[358.9s->363.4s] Doctor: Any night sweats or chills?
+[363.4s->365.0s] Patient: No.
+[365.0s->366.0s] Doctor: Okay.
+[366.0s->372.2s] Doctor: Any, apart from the breathlessness and laying down, any other issues with your sleep?
+[372.2s->373.2s] Patient: No.
+[373.8s->375.8s] Doctor: Any changes in your appetite?
+[375.8s->377.4s] Patient: No.
+[377.4s->384.2s] Doctor: Have you had any recent infections like a cold at all?
+[384.2s->386.8s] Patient: No.
+[386.8s->391.3s] Doctor: Any exposure to tuberculosis in the past?
+[391.3s->394.6s] Patient: Not that I know of.
+[394.6s->400.6s] Doctor: Any exposure to fumes or dust within your home or work environment?
+[400.6s->401.6s] Patient: No.
+[401.6s->407.3s] Doctor: Any animals or pets in the house?
+[407.3s->408.3s] Patient: No.
+[408.3s->409.3s] Doctor: No.
+[409.3s->415.6s] Doctor: And in terms of your past medical history, has anyone told you that you have anything
+[415.6s->424.2s] Doctor: like COPD or any cardiovascular issues like high blood pressure, cholesterol?
+[424.2s->432.1s] Patient: Yeah, so I have high blood pressure, diabetes, and high cholesterol.
+[432.1s->433.8s] Doctor: Okay.
+[433.8s->435.8s] Doctor: Okay.
+[435.8s->438.8s] Doctor: And do you take any medications for this?
+[438.8s->439.8s] Patient: Yep.
+[439.8s->445.3s] Patient: So I take aspirin, ramaprol, and simulastatin.
+[445.3s->450.3s] Doctor: And have you ever had any chest pain or a heart attack in the past?
+[450.3s->455.2s] Patient: Yeah, actually I had a heart attack four years ago.
+[455.2s->456.2s] Doctor: Okay.
+[456.2s->461.8s] Doctor: And do you remember what they did for your heart attack?
+[461.8s->466.2s] Patient: Something like a stent or something.
+[466.2s->467.2s] Doctor: Okay.
+[467.2s->469.2s] Doctor: And since then you have been on these medications?
+[469.2s->470.2s] Patient: Yes.
+[470.2s->471.8s] Doctor: Okay.
+[471.8s->479.4s] Doctor: And after they managed your heart attack, have you ever had similar symptoms when you
+[479.4s->480.4s] Doctor: had your heart attack?
+[480.4s->482.7s] Patient: No.
+[482.7s->483.8s] Doctor: No.
+[483.8s->484.8s] Doctor: Nothing like that.
+[484.8s->486.9s] Doctor: Okay.
+[486.9s->489.9s] Doctor: Do you have any allergies to any medications?
+[489.9s->491.4s] Patient: No.
+[491.4s->493.4s] Doctor: Any environmental allergies?
+[493.4s->494.4s] Patient: No.
+[496.7s->506.1s] Doctor: And have you previously had any surgeries in the past?
+[506.1s->508.1s] Patient: I guess the stenting.
+[508.1s->510.3s] Doctor: Just the stenting.
+[510.3s->515.3s] Doctor: And apart from that, have you had any other previous hospitalizations?
+[515.3s->516.3s] Patient: No.
+[516.3s->518.8s] Doctor: Okay.
+[518.8s->525.3s] Doctor: Any family history of any cancers or heart attacks?
+[525.3s->528.3s] Patient: My father died of a heart attack when he was 60.
+[528.3s->534.7s] Doctor: And currently, do you work at all?
+[534.7s->537.3s] Patient: I do.
+[537.3s->541.9s] Patient: I work as a cashier.
+[541.9s->544.0s] Doctor: Okay.
+[544.0s->551.2s] Doctor: And has the shortness of breath been affecting your daily routine at home or at work at all?
+[551.2s->553.2s] Patient: Yeah, I would say so.
+[553.2s->560.5s] Patient: It's been hard to make it to work and then standing around all day or if I have to go
+[560.5s->564.5s] Patient: out with something and exert myself too much, I get short of breath.
+[564.5s->566.1s] Doctor: Okay.
+[566.1s->572.6s] Doctor: And at home, do you currently live with anyone or do you live by yourself?
+[572.6s->575.6s] Patient: I live by myself.
+[575.6s->577.6s] Doctor: And do you live in an apartment or a house?
+[577.6s->580.4s] Patient: I live in an apartment.
+[580.4s->581.5s] Doctor: Okay.
+[581.5s->589.5s] Doctor: And are there any exposures like dust or mold or asbestos in your home environment?
+[589.5s->590.5s] Patient: No.
+[590.5s->594.4s] Doctor: And currently, do you smoke?
+[594.4s->596.2s] Patient: Not right now.
+[596.2s->598.2s] Patient: I used to smoke.
+[598.2s->602.8s] Patient: I used to smoke 10 a day for like 40 years.
+[602.8s->604.3s] Doctor: Okay.
+[604.3s->609.5s] Doctor: And do you use any recreational drugs like marijuana?
+[609.5s->610.5s] Patient: No.
+[610.5s->615.1s] Doctor: Any alcohol?
+[615.1s->616.1s] Patient: No.
+[616.1s->628.0s] Doctor: And in terms of your daily routine, do you feel that you get three meals a day while
+[628.0s->630.0s] Doctor: balanced diet?
+[630.0s->633.6s] Patient: I would say well balanced.
+[633.6s->637.6s] Patient: I'm trying to eat healthier but it doesn't always happen.
+[637.6s->639.1s] Doctor: Okay.
+[639.1s->640.1s] Doctor: And how about exercise?
+[640.1s->645.1s] Doctor: Do you find that your exercise levels or activity levels have gone down in the last
+[645.1s->646.1s] Doctor: two months?
+[646.1s->647.1s] Patient: Yes.
+[647.1s->648.6s] Doctor: Okay.
+[648.6s->651.3s] Doctor: All right.
+[651.3s->656.3s] Doctor: Is there any other questions or concerns that you have or something I may have missed to
+[656.3s->658.9s] Doctor: ask you today?
+[658.9s->660.9s] Patient: No, I don't think so.
+[660.9s->662.2s] Doctor: Okay.
+[662.2s->670.7s] Doctor: So based on what we talked about from your swelling as well as breathlessness while laying
+[670.7s->677.9s] Doctor: down on your past history of a heart attack and high cholesterol, it may be likely with
+[677.9s->683.9s] Doctor: the medications you're on as well as your history that you might be having what's called
+[683.9s->685.9s] Doctor: a congestive heart failure.
+[685.9s->686.9s] Patient: Okay.
+[687.9s->694.9s] Doctor: We will need to do further investigations to determine if that is what it is and if
+[694.9s->706.0s] Doctor: we need to get you on something like Lasix or a diuretic to get rid of some of the fluid
+[706.0s->710.0s] Doctor: that's filling up in your body which may be caused by heart failure.
+[710.0s->711.0s] Patient: Okay.
+[711.0s->714.0s] Doctor: So we'll do some investigations and then go from there.

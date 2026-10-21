@@ -1,147 +1,147 @@
-[0.0s->2.6s] Speaker: What brings you in here today?
-[2.6s->7.1s] Speaker: Yeah, I have this pain in my chest.
-[7.1s->10.5s] Speaker: Okay, and where is the pain exactly?
-[10.5s->14.5s] Speaker: It's just right over on the left side.
-[14.5s->18.6s] Speaker: Okay, and when did this pain start?
-[18.6s->21.4s] Speaker: It started just 30 minutes ago.
-[21.4s->24.3s] Speaker: Okay, and did it just come on randomly
-[24.3s->27.1s] Speaker: or were you doing something strenuous?
-[28.5s->33.5s] Speaker: I was just shuttling the driveway and it came on.
-[33.5s->38.5s] Speaker: Okay, and has that pain been getting worse at all
-[39.1s->42.0s] Speaker: over the last one and a half an hour?
-[42.0s->44.7s] Speaker: No, it just came on suddenly and it's,
-[47.6s->49.7s] Speaker: sorry, yeah, the pain has been there this whole time
-[49.7s->53.3s] Speaker: and it's gotten worse ever since it started.
-[53.3s->55.9s] Speaker: Okay, and how would you describe the pain?
-[55.9s->58.0s] Speaker: Is it kind of like an aching pain
-[58.0s->60.6s] Speaker: or is it a sharp or tightness kind of pain?
-[60.6s->62.1s] Speaker: How would you describe it?
-[62.1s->63.0s] Speaker: It feels dull.
-[63.0s->68.4s] Speaker: I feel like there's a lot of pressure on my chest.
-[68.4s->71.0s] Speaker: Okay, and how would you rate the pain right now
-[71.0s->72.9s] Speaker: on a scale of zero to 10,
-[72.9s->74.5s] Speaker: zero being the least amount of pain you've felt
-[74.5s->76.2s] Speaker: in your life, 10 being the worst?
-[78.3s->79.7s] Speaker: Seven.
-[79.7s->81.1s] Speaker: Seven, okay.
-[81.1s->84.8s] Speaker: Have you had any similar episodes before?
-[84.8s->87.7s] Speaker: No, I've never had any chest pain before.
-[87.7s->91.1s] Speaker: Okay, and is the pain just staying in the region,
-[91.1s->93.0s] Speaker: the left chest area that you mentioned
-[93.0s->96.5s] Speaker: or is it traveling to any other part of your body?
-[96.5s->100.0s] Speaker: No, I'm kind of just feeling it right here on the left side.
-[100.0s->100.8s] Speaker: Okay.
-[101.9s->105.2s] Speaker: Is there anything that you do that makes the pain
-[105.2s->108.5s] Speaker: either get worse or go away or get better?
-[110.5s->113.9s] Speaker: I think it's a bit worse if I'm moving around
-[113.9s->115.7s] Speaker: or when I was walking in here,
-[115.7s->118.1s] Speaker: I think it made it a bit worse,
-[118.1s->123.2s] Speaker: but nothing seemed to make it any better since it's starting.
-[123.2s->127.3s] Speaker: Okay, and does it change at all from you changing positions
-[127.3s->128.6s] Speaker: like if you're standing up
-[128.6s->130.4s] Speaker: versus sitting down or laying down?
-[132.4s->136.7s] Speaker: I think it's a little bit worse when I'm laying down.
-[136.7s->140.7s] Speaker: Okay, and other than the pain that you've been having,
-[140.7s->142.3s] Speaker: have you been having any other symptoms
-[142.3s->145.9s] Speaker: like a cough or difficulty breathing
-[145.9s->148.9s] Speaker: or any pain when you're breathing in or out?
-[150.2s->155.5s] Speaker: I've felt a little bit short of breath
-[155.5s->158.9s] Speaker: or having difficulty breathing since yesterday,
-[158.9s->161.8s] Speaker: or sorry, since the pain started,
-[161.8s->166.9s] Speaker: but just the difficulty breathing.
-[166.9s->172.1s] Speaker: Okay, and have you recently injured your chest
-[172.3s->174.5s] Speaker: or surrounding area at all,
-[174.5s->176.9s] Speaker: like from fall or anything like that?
-[178.1s->183.1s] Speaker: I do play rugby and was tackled by another player yesterday,
-[185.8s->191.5s] Speaker: but my chest felt fine after that.
-[191.5s->194.2s] Speaker: Okay, but the pain just started hopping out like that?
-[194.2s->195.6s] Speaker: Yeah.
-[195.6s->200.9s] Speaker: Okay, have you been traveling at all recently?
-[201.7s->203.7s] Speaker: No, been at home.
-[203.7s->206.5s] Speaker: Okay, has anyone around you been sick at all?
-[208.5s->210.6s] Speaker: No.
-[210.7s->212.5s] Speaker: Okay, have you been having any symptoms
-[212.5s->215.7s] Speaker: like nausea or vomiting or any fevers or chills?
-[217.7s->219.4s] Speaker: No nausea or vomiting,
-[219.4s->224.8s] Speaker: but I do feel a little bit hot today.
-[224.8s->227.4s] Speaker: Okay, have you measured your temperature at all?
-[232.0s->237.0s] Speaker: I did, and it was 38 degrees.
-[237.2s->242.1s] Speaker: Okay, and have you been having any kind of swelling
-[242.1s->243.6s] Speaker: in your legs or feet?
-[247.1s->250.2s] Speaker: No swelling in my legs.
-[250.2s->253.2s] Speaker: Okay, have you been feeling tired at all,
-[253.2s->256.2s] Speaker: like increasingly fatigued?
-[256.2s->258.5s] Speaker: No, my energy has been good.
-[258.5s->261.3s] Speaker: Okay, have you been having any kind of thumping
-[261.3s->263.8s] Speaker: or palpitations or feel like your heart
-[263.8s->265.0s] Speaker: has been racing at all?
-[268.4s->270.4s] Speaker: It does feel like it's beating faster right now.
-[270.4s->275.3s] Speaker: It usually only feels like this when I'm playing sports.
-[275.5s->279.1s] Speaker: Okay, and have you noticed any changes
-[279.1s->282.7s] Speaker: in your skin at all, any rashes?
-[282.7s->284.9s] Speaker: No rashes.
-[284.9s->288.4s] Speaker: Okay, have you had any cough or runny nose
-[288.4s->291.0s] Speaker: or sore throat, any kind of those symptoms
-[291.0s->292.6s] Speaker: in the past month?
-[293.7s->298.5s] Speaker: A few weeks ago, my nose was a little runny,
-[298.5s->301.5s] Speaker: but that went away on its own.
-[301.5s->303.7s] Speaker: I haven't had any cough.
-[303.7s->307.1s] Speaker: Okay, and have you been feeling dizzy at all
-[307.1s->308.2s] Speaker: or have you fainted?
-[310.9s->315.3s] Speaker: No dizziness and no, I haven't fainted at all.
-[315.3s->318.1s] Speaker: Okay, just a few more questions.
-[318.1s->322.2s] Speaker: Have you had any diagnosis made by any physician
-[322.2s->327.5s] Speaker: or anything like diabetes or high blood pressure?
-[327.5s->331.3s] Speaker: Yeah, I've been told I have high cholesterol
-[331.3s->334.8s] Speaker: and high blood pressure.
-[334.8s->337.7s] Speaker: Okay, and do you take any medications for these things?
-[340.8s->345.6s] Speaker: I do take medications for both blood pressure
-[345.6s->350.8s] Speaker: and cholesterol, resubastatin and lacetaprol,
-[358.6s->362.9s] Speaker: and I take a multivitamin.
-[362.9s->365.3s] Speaker: Okay, and do you have any allergies
-[365.3s->367.7s] Speaker: to any medications at all?
-[367.7s->369.7s] Speaker: No allergies.
-[369.7s->373.1s] Speaker: Okay, have you at all in the past been hospitalized
-[373.1s->375.5s] Speaker: for any reason?
-[375.5s->377.9s] Speaker: No hospitalizations.
-[377.9s->379.9s] Speaker: Any previous surgeries?
-[379.9s->382.1s] Speaker: No.
-[382.1s->385.7s] Speaker: And within your family, has anyone passed away
-[385.7s->388.6s] Speaker: from a heart attack or any cancers
-[388.6s->390.9s] Speaker: that weren't in the family?
-[390.9s->392.0s] Speaker: No.
-[392.0s->393.4s] Speaker: No, okay.
-[393.4s->396.8s] Speaker: And currently right now, do you live alone?
-[396.8s->397.8s] Speaker: Do you live with someone?
-[397.8s->400.2s] Speaker: And where do you live, like an apartment, house?
-[401.0s->406.1s] Speaker: I live in a house with my parents.
-[408.9s->412.2s] Speaker: Okay, and do you currently work?
-[412.2s->415.9s] Speaker: Yeah, I drive a bus for the city.
-[415.9s->421.1s] Speaker: Okay, and in your daily routine,
-[421.2s->424.6s] Speaker: would you say you get enough exercise throughout the week?
-[426.4s->429.6s] Speaker: Yeah, usually on Sundays, I'll go for a run.
-[429.6s->432.9s] Speaker: Okay, and how about your diet?
-[432.9s->435.5s] Speaker: How's your diet like just regularly?
-[440.3s->445.6s] Speaker: Usually I feel like it's fairly balanced overall.
-[446.2s->451.2s] Speaker: I might eat out a little bit too often,
-[451.2s->455.2s] Speaker: but try to eat as many vegetables as I can.
-[455.2s->459.1s] Speaker: Okay, and do you smoke cigarettes at all?
-[460.6s->462.5s] Speaker: I do, yes.
-[462.5s->466.8s] Speaker: I've been smoking for the last 20 years, roughly.
-[466.8s->469.6s] Speaker: Okay, how much do you smoke on an average day?
-[471.9s->474.6s] Speaker: About a half a pack to a pack a day.
-[474.6s->477.2s] Speaker: Okay, and do you drink?
-[478.8s->480.8s] Speaker: No alcohol.
-[480.8s->484.6s] Speaker: Okay, and any recreational drugs like marijuana?
-[487.8s->492.8s] Speaker: No marijuana, but I have used crystal meth in the past.
-[494.5s->497.5s] Speaker: Okay, and when was the last time
-[497.5s->498.8s] Speaker: that you used crystal meth?
-[501.7s->503.8s] Speaker: Six days ago.
-[503.8s->505.5s] Speaker: Six days ago, okay.
-[505.5s->507.4s] Speaker: And how often do you use crystal meth?
-[512.6s->514.8s] Speaker: A couple of times a month.
-[514.8s->517.1s] Speaker: A couple of times a month, okay.
-[517.1s->518.9s] Speaker: All right, and for how long
-[518.9s->520.6s] Speaker: have you been using crystal meth?
-[522.0s->526.7s] Speaker: For the last seven years.
-[526.7s->530.2s] Speaker: Okay, all right, thank you.
+[0.0s->2.6s] Doctor: What brings you in here today?
+[2.6s->7.1s] Patient: Yeah, I have this pain in my chest.
+[7.1s->10.5s] Doctor: Okay, and where is the pain exactly?
+[10.5s->14.5s] Patient: It's just right over on the left side.
+[14.5s->18.6s] Doctor: Okay, and when did this pain start?
+[18.6s->21.4s] Patient: It started just 30 minutes ago.
+[21.4s->24.3s] Doctor: Okay, and did it just come on randomly
+[24.3s->27.1s] Doctor: or were you doing something strenuous?
+[28.5s->33.5s] Patient: I was just shuttling the driveway and it came on.
+[33.5s->38.5s] Doctor: Okay, and has that pain been getting worse at all
+[39.1s->42.0s] Doctor: over the last one and a half an hour?
+[42.0s->44.7s] Patient: No, it just came on suddenly and it's,
+[47.6s->49.7s] Patient: sorry, yeah, the pain has been there this whole time
+[49.7s->53.3s] Patient: and it's gotten worse ever since it started.
+[53.3s->55.9s] Doctor: Okay, and how would you describe the pain?
+[55.9s->58.0s] Doctor: Is it kind of like an aching pain
+[58.0s->60.6s] Doctor: or is it a sharp or tightness kind of pain?
+[60.6s->62.1s] Doctor: How would you describe it?
+[62.1s->63.0s] Patient: It feels dull.
+[63.0s->68.4s] Patient: I feel like there's a lot of pressure on my chest.
+[68.4s->71.0s] Doctor: Okay, and how would you rate the pain right now
+[71.0s->72.9s] Doctor: on a scale of zero to 10,
+[72.9s->74.5s] Doctor: zero being the least amount of pain you've felt
+[74.5s->76.2s] Doctor: in your life, 10 being the worst?
+[78.3s->79.7s] Patient: Seven.
+[79.7s->81.1s] Doctor: Seven, okay.
+[81.1s->84.8s] Doctor: Have you had any similar episodes before?
+[84.8s->87.7s] Patient: No, I've never had any chest pain before.
+[87.7s->91.1s] Doctor: Okay, and is the pain just staying in the region,
+[91.1s->93.0s] Doctor: the left chest area that you mentioned
+[93.0s->96.5s] Doctor: or is it traveling to any other part of your body?
+[96.5s->100.0s] Patient: No, I'm kind of just feeling it right here on the left side.
+[100.0s->100.8s] Doctor: Okay.
+[101.9s->105.2s] Doctor: Is there anything that you do that makes the pain
+[105.2s->108.5s] Doctor: either get worse or go away or get better?
+[110.5s->113.9s] Patient: I think it's a bit worse if I'm moving around
+[113.9s->115.7s] Patient: or when I was walking in here,
+[115.7s->118.1s] Patient: I think it made it a bit worse,
+[118.1s->123.2s] Patient: but nothing seemed to make it any better since it's starting.
+[123.2s->127.3s] Doctor: Okay, and does it change at all from you changing positions
+[127.3s->128.6s] Doctor: like if you're standing up
+[128.6s->130.4s] Doctor: versus sitting down or laying down?
+[132.4s->136.7s] Patient: I think it's a little bit worse when I'm laying down.
+[136.7s->140.7s] Doctor: Okay, and other than the pain that you've been having,
+[140.7s->142.3s] Doctor: have you been having any other symptoms
+[142.3s->145.9s] Doctor: like a cough or difficulty breathing
+[145.9s->148.9s] Doctor: or any pain when you're breathing in or out?
+[150.2s->155.5s] Patient: I've felt a little bit short of breath
+[155.5s->158.9s] Patient: or having difficulty breathing since yesterday,
+[158.9s->161.8s] Patient: or sorry, since the pain started,
+[161.8s->166.9s] Patient: but just the difficulty breathing.
+[166.9s->172.1s] Doctor: Okay, and have you recently injured your chest
+[172.3s->174.5s] Doctor: or surrounding area at all,
+[174.5s->176.9s] Doctor: like from fall or anything like that?
+[178.1s->183.1s] Patient: I do play rugby and was tackled by another player yesterday,
+[185.8s->191.5s] Patient: but my chest felt fine after that.
+[191.5s->194.2s] Doctor: Okay, but the pain just started hopping out like that?
+[194.2s->195.6s] Patient: Yeah.
+[195.6s->200.9s] Doctor: Okay, have you been traveling at all recently?
+[201.7s->203.7s] Patient: No, been at home.
+[203.7s->206.5s] Doctor: Okay, has anyone around you been sick at all?
+[208.5s->210.6s] Patient: No.
+[210.7s->212.5s] Doctor: Okay, have you been having any symptoms
+[212.5s->215.7s] Doctor: like nausea or vomiting or any fevers or chills?
+[217.7s->219.4s] Patient: No nausea or vomiting,
+[219.4s->224.8s] Patient: but I do feel a little bit hot today.
+[224.8s->227.4s] Doctor: Okay, have you measured your temperature at all?
+[232.0s->237.0s] Patient: I did, and it was 38 degrees.
+[237.2s->242.1s] Doctor: Okay, and have you been having any kind of swelling
+[242.1s->243.6s] Doctor: in your legs or feet?
+[247.1s->250.2s] Patient: No swelling in my legs.
+[250.2s->253.2s] Doctor: Okay, have you been feeling tired at all,
+[253.2s->256.2s] Doctor: like increasingly fatigued?
+[256.2s->258.5s] Patient: No, my energy has been good.
+[258.5s->261.3s] Doctor: Okay, have you been having any kind of thumping
+[261.3s->263.8s] Doctor: or palpitations or feel like your heart
+[263.8s->265.0s] Doctor: has been racing at all?
+[268.4s->270.4s] Patient: It does feel like it's beating faster right now.
+[270.4s->275.3s] Patient: It usually only feels like this when I'm playing sports.
+[275.5s->279.1s] Doctor: Okay, and have you noticed any changes
+[279.1s->282.7s] Doctor: in your skin at all, any rashes?
+[282.7s->284.9s] Patient: No rashes.
+[284.9s->288.4s] Doctor: Okay, have you had any cough or runny nose
+[288.4s->291.0s] Doctor: or sore throat, any kind of those symptoms
+[291.0s->292.6s] Doctor: in the past month?
+[293.7s->298.5s] Patient: A few weeks ago, my nose was a little runny,
+[298.5s->301.5s] Patient: but that went away on its own.
+[301.5s->303.7s] Patient: I haven't had any cough.
+[303.7s->307.1s] Doctor: Okay, and have you been feeling dizzy at all
+[307.1s->308.2s] Doctor: or have you fainted?
+[310.9s->315.3s] Patient: No dizziness and no, I haven't fainted at all.
+[315.3s->318.1s] Doctor: Okay, just a few more questions.
+[318.1s->322.2s] Doctor: Have you had any diagnosis made by any physician
+[322.2s->327.5s] Doctor: or anything like diabetes or high blood pressure?
+[327.5s->331.3s] Patient: Yeah, I've been told I have high cholesterol
+[331.3s->334.8s] Patient: and high blood pressure.
+[334.8s->337.7s] Doctor: Okay, and do you take any medications for these things?
+[340.8s->345.6s] Patient: I do take medications for both blood pressure
+[345.6s->350.8s] Patient: and cholesterol, resubastatin and lacetaprol,
+[358.6s->362.9s] Patient: and I take a multivitamin.
+[362.9s->365.3s] Doctor: Okay, and do you have any allergies
+[365.3s->367.7s] Doctor: to any medications at all?
+[367.7s->369.7s] Patient: No allergies.
+[369.7s->373.1s] Doctor: Okay, have you at all in the past been hospitalized
+[373.1s->375.5s] Doctor: for any reason?
+[375.5s->377.9s] Patient: No hospitalizations.
+[377.9s->379.9s] Doctor: Any previous surgeries?
+[379.9s->382.1s] Patient: No.
+[382.1s->385.7s] Doctor: And within your family, has anyone passed away
+[385.7s->388.6s] Doctor: from a heart attack or any cancers
+[388.6s->390.9s] Doctor: that weren't in the family?
+[390.9s->392.0s] Patient: No.
+[392.0s->393.4s] Doctor: No, okay.
+[393.4s->396.8s] Doctor: And currently right now, do you live alone?
+[396.8s->397.8s] Doctor: Do you live with someone?
+[397.8s->400.2s] Doctor: And where do you live, like an apartment, house?
+[401.0s->406.1s] Patient: I live in a house with my parents.
+[408.9s->412.2s] Doctor: Okay, and do you currently work?
+[412.2s->415.9s] Patient: Yeah, I drive a bus for the city.
+[415.9s->421.1s] Doctor: Okay, and in your daily routine,
+[421.2s->424.6s] Doctor: would you say you get enough exercise throughout the week?
+[426.4s->429.6s] Patient: Yeah, usually on Sundays, I'll go for a run.
+[429.6s->432.9s] Doctor: Okay, and how about your diet?
+[432.9s->435.5s] Doctor: How's your diet like just regularly?
+[440.3s->445.6s] Patient: Usually I feel like it's fairly balanced overall.
+[446.2s->451.2s] Patient: I might eat out a little bit too often,
+[451.2s->455.2s] Patient: but try to eat as many vegetables as I can.
+[455.2s->459.1s] Doctor: Okay, and do you smoke cigarettes at all?
+[460.6s->462.5s] Patient: I do, yes.
+[462.5s->466.8s] Patient: I've been smoking for the last 20 years, roughly.
+[466.8s->469.6s] Doctor: Okay, how much do you smoke on an average day?
+[471.9s->474.6s] Patient: About a half a pack to a pack a day.
+[474.6s->477.2s] Doctor: Okay, and do you drink?
+[478.8s->480.8s] Patient: No alcohol.
+[480.8s->484.6s] Doctor: Okay, and any recreational drugs like marijuana?
+[487.8s->492.8s] Patient: No marijuana, but I have used crystal meth in the past.
+[494.5s->497.5s] Doctor: Okay, and when was the last time
+[497.5s->498.8s] Doctor: that you used crystal meth?
+[501.7s->503.8s] Patient: Six days ago.
+[503.8s->505.5s] Doctor: Six days ago, okay.
+[505.5s->507.4s] Doctor: And how often do you use crystal meth?
+[512.6s->514.8s] Patient: A couple of times a month.
+[514.8s->517.1s] Doctor: A couple of times a month, okay.
+[517.1s->518.9s] Doctor: All right, and for how long
+[518.9s->520.6s] Doctor: have you been using crystal meth?
+[522.0s->526.7s] Patient: For the last seven years.
+[526.7s->530.2s] Doctor: Okay, all right, thank you.
