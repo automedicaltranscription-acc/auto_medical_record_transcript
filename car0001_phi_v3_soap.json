@@ -1,0 +1,416 @@
+{
+  "model": "phi4-mini",
+  "pipeline": "phi_v3_schema_constrained",
+  "soap": {
+    "diarized_segments": [
+      {
+        "id": 0,
+        "speaker": "Doctor",
+        "start": 0.0,
+        "end": 8.8,
+        "text": "brought you in today?"
+      },
+      {
+        "id": 1,
+        "speaker": "Patient",
+        "start": 9.0,
+        "end": 22.0,
+        "text": "Sure I'm just having a lot of chest pain and so I thought I should get it"
+      },
+      {
+        "id": 2,
+        "speaker": "Doctor",
+        "start": 23.0,
+        "end": 35.8,
+        "text": "checked out. Okay and before we start could you remind me of your gender and age?"
+      },
+      {
+        "id": 3,
+        "speaker": "Patient",
+        "start": 36.9,
+        "end": 47.9,
+        "text": "Sure I'm 39"
+      },
+      {
+        "id": 4,
+        "speaker": "Doctor",
+        "start": 49.0,
+        "end": 58.3,
+        "text": "Okay and so when did this chest pain start?"
+      },
+      {
+        "id": 5,
+        "speaker": "Patient",
+        "start": 60.8,
+        "end": 72.3,
+        "text": "It started last night but it's becoming sharper."
+      },
+      {
+        "id": 6,
+        "speaker": "Doctor",
+        "start": 74.9,
+        "end": 81.9,
+        "text": "Okay and where is this pain located?"
+      },
+      {
+        "id": 7,
+        "speaker": "Patient",
+        "start": 84.0,
+        "end": 91.8,
+        "text": "It's located on the left side of my chest."
+      },
+      {
+        "id": 8,
+        "speaker": "Doctor",
+        "start": 93.9,
+        "end": 101.8,
+        "text": "Okay and how long has it been going on for than if it started last night?"
+      },
+      {
+        "id": 9,
+        "speaker": "Patient",
+        "start": 103.5,
+        "end": 111.3,
+        "text": "So I guess it would be a couple of hours now maybe like eight."
+      },
+      {
+        "id": 10,
+        "speaker": "Doctor",
+        "start": 113.0,
+        "end": 122.9,
+        "text": "Okay has it been constant throughout that time or changing?"
+      },
+      {
+        "id": 11,
+        "speaker": "Patient",
+        "start": 124.1,
+        "end": 132.9,
+        "text": "I would say it's pretty constant yeah."
+      },
+      {
+        "id": 12,
+        "speaker": "Doctor",
+        "start": 134.0,
+        "end": 141.8,
+        "text": "Okay and how would you describe the pain?"
+      },
+      {
+        "id": 13,
+        "speaker": "Patient",
+        "start": 143.1,
+        "end": 151.7,
+        "text": "People will use words like sharp, burning, achy. I'd say it's pretty sharp yeah."
+      },
+      {
+        "id": 14,
+        "speaker": "Doctor",
+        "start": 152.8,
+        "end": 161.4,
+        "text": "Anything you have tried since last night that's made the pain better?"
+      },
+      {
+        "id": 15,
+        "speaker": "Patient",
+        "start": 163.0,
+        "end": 173.9,
+        "text": "Not laying down helps."
+      },
+      {
+        "id": 16,
+        "speaker": "Doctor",
+        "start": 175.1,
+        "end": 180.7,
+        "text": "Okay so do you find lying down makes the pain worse?"
+      },
+      {
+        "id": 17,
+        "speaker": "Patient",
+        "start": 182.0,
+        "end": 189.3,
+        "text": "Yes definitely."
+      },
+      {
+        "id": 18,
+        "speaker": "Doctor",
+        "start": 191.4,
+        "end": 197.7,
+        "text": "Okay and does anything like this ever happen to you before?"
+      },
+      {
+        "id": 19,
+        "speaker": "Patient",
+        "start": 199.0,
+        "end": 215.8,
+        "text": "No I don't think so."
+      },
+      {
+        "id": 20,
+        "speaker": "Doctor",
+        "start": 216.9,
+        "end": 230.0,
+        "text": "Okay how about any other associated symptoms like light-headedness or trouble breathing?"
+      },
+      {
+        "id": 21,
+        "speaker": "Patient",
+        "start": 231.5,
+        "end": 239.1,
+        "text": "I feel a little light-headed and I'm having some trouble breathing."
+      },
+      {
+        "id": 22,
+        "speaker": "Doctor",
+        "start": 240.2,
+        "end": 252.3,
+        "text": "Okay have you had any loss of consciousness?"
+      },
+      {
+        "id": 23,
+        "speaker": "Patient",
+        "start": 253.5,
+        "end": 259.1,
+        "text": "No."
+      },
+      {
+        "id": 24,
+        "speaker": "Doctor",
+        "start": 260.2,
+        "end": 272.0,
+        "text": "Have you been experiencing any racing of the heart or sweating at all?"
+      },
+      {
+        "id": 25,
+        "speaker": "Patient",
+        "start": 273.0,
+        "end": 279.1,
+        "text": "A little bit yeah."
+      },
+      {
+        "id": 26,
+        "speaker": "Doctor",
+        "start": 280.2,
+        "end": 284.9,
+        "text": "Okay have you been sweaty from the shortness of breath?"
+      },
+      {
+        "id": 27,
+        "speaker": "Patient",
+        "start": 285.0,
+        "end": 289.0,
+        "text": "Just from having issues breathing."
+      },
+      {
+        "id": 28,
+        "speaker": "Doctor",
+        "start": 290.1,
+        "end": 301.8,
+        "text": "Okay have you been immobilized or unable to move around a lot?"
+      },
+      {
+        "id": 29,
+        "speaker": "Patient",
+        "start": 302.9,
+        "end": 313.0,
+        "text": "No."
+      },
+      {
+        "id": 30,
+        "speaker": "Doctor",
+        "start": 314.1,
+        "end": 324.6,
+        "text": "Have you been feeling sick at all any infectious symptoms like fever or chills?"
+      },
+      {
+        "id": 31,
+        "speaker": "Patient",
+        "start": 325.7,
+        "end": 329.1,
+        "text": "No."
+      },
+      {
+        "id": 32,
+        "speaker": "Doctor",
+        "start": 330.2,
+        "end": 340.0,
+        "text": "Any abdominal pain, urinary problems, cough, wheezing or changes to breath sounds?"
+      },
+      {
+        "id": 33,
+        "speaker": "Patient",
+        "start": 341.1,
+        "end": 350.9,
+        "text": "No."
+      },
+      {
+        "id": 34,
+        "speaker": "Doctor",
+        "start": 352.0,
+        "end": 363.7,
+        "text": "Any trauma like a car accident or anything where you jerked your neck?"
+      },
+      {
+        "id": 35,
+        "speaker": "Patient",
+        "start": 364.8,
+        "end": 375.1,
+        "text": "No."
+      },
+      {
+        "id": 36,
+        "speaker": "Doctor",
+        "start": 376.2,
+        "end": 387.4,
+        "text": "Okay do you have any past medical conditions or surgeries?"
+      },
+      {
+        "id": 37,
+        "speaker": "Patient",
+        "start": 388.6,
+        "end": 399.4,
+        "text": "None."
+      },
+      {
+        "id": 38,
+        "speaker": "Doctor",
+        "start": 400.5,
+        "end": 407.0,
+        "text": "Do you take medications regularly?"
+      },
+      {
+        "id": 39,
+        "speaker": "Patient",
+        "start": 408.1,
+        "end": 417.9,
+        "text": "No."
+      },
+      {
+        "id": 40,
+        "speaker": "Doctor",
+        "start": 419.0,
+        "end": 427.1,
+        "text": "Any allergies to medication?"
+      },
+      {
+        "id": 41,
+        "speaker": "Patient",
+        "start": 428.2,
+        "end": 435.8,
+        "text": "None."
+      },
+      {
+        "id": 42,
+        "speaker": "Doctor",
+        "start": 436.9,
+        "end": 444.7,
+        "text": "Are your immunizations up to date?"
+      },
+      {
+        "id": 43,
+        "speaker": "Patient",
+        "start": 446.0,
+        "end": 451.6,
+        "text": "They're all up to date."
+      },
+      {
+        "id": 44,
+        "speaker": "Doctor",
+        "start": 452.8,
+        "end": 463.4,
+        "text": "Could you tell me a little bit about your living situation and diet/exercise habits?"
+      },
+      {
+        "id": 45,
+        "speaker": "Patient",
+        "start": 465.0,
+        "end": 473.2,
+        "text": "I live in an apartment by myself, try to eat healthy for dinner at least but most of my lunches are eaten out."
+      },
+      {
+        "id": 46,
+        "speaker": "Doctor",
+        "start": 474.3,
+        "end": 482.8,
+        "text": "How about your exercise routine?"
+      },
+      {
+        "id": 47,
+        "speaker": "Patient",
+        "start": 484.0,
+        "end": 492.8,
+        "text": "I try to run every other day for half an hour."
+      },
+      {
+        "id": 48,
+        "speaker": "Doctor",
+        "start": 493.9,
+        "end": 501.0,
+        "text": "Okay and has anything like this happened in your family before?"
+      },
+      {
+        "id": 49,
+        "speaker": "Patient",
+        "start": 502.1,
+        "end": 511.5,
+        "text": "No I don't think so."
+      },
+      {
+        "id": 50,
+        "speaker": "Doctor",
+        "start": 512.6,
+        "end": 521.0,
+        "text": "Has anybody had a heart attack, stroke or cancer in the family?"
+      },
+      {
+        "id": 51,
+        "speaker": "Patient",
+        "start": 522.1,
+        "end": 531.9,
+        "text": "No."
+      },
+      {
+        "id": 52,
+        "speaker": "Doctor",
+        "start": 532.0,
+        "end": 540.2,
+        "text": "Is there anything else you want to tell me about your history?"
+      },
+      {
+        "id": 53,
+        "speaker": "Patient",
+        "start": 541.3,
+        "end": 550.6,
+        "text": "No I think so."
+      }
+    ],
+    "summary": "The patient, a male aged 39 years with no past medical conditions or surgeries and up-to-date immunizations presents to the emergency department complaining of sharp chest pain on his left side that started last night while moving furniture around for about eight hours. The patient's symptoms have been constant since onset without any improvement from rest but worsening when lying down, accompanied by light-headedness and trouble breathing with no loss of consciousness or history suggestive of trauma.",
+    "encounter_type": "initial_consultation",
+    "additional_notes": null,
+    "extraction_confidence": "high",
+    "subjective": {
+      "chief_complaint": "sharp chest pain on the left side",
+      "symptoms": [
+        "light-headedness",
+        "trouble breathing"
+      ],
+      "symptom_onset": "last night while moving furniture around for about eight hours",
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": []
+    },
+    "objective": {
+      "physical_exam_findings": [],
+      "vital_signs": null
+    },
+    "assessment": {
+      "diagnosis": [],
+      "differential_diagnosis": []
+    },
+    "plan": {
+      "prescribed_medications": [],
+      "treatment_plan": [],
+      "investigations_ordered": [],
+      "referrals": [],
+      "follow_up": null
+    }
+  }
+}

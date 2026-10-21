@@ -1,0 +1,607 @@
+{
+  "model": "phi4-mini",
+  "pipeline": "phi_v3_schema_constrained",
+  "soap": {
+    "diarized_segments": [
+      {
+        "id": 0,
+        "speaker": "Doctor",
+        "start": 0.0,
+        "end": 8.8,
+        "text": "brought you in today?"
+      },
+      {
+        "id": 1,
+        "speaker": "Patient",
+        "start": 8.8,
+        "end": 22.0,
+        "text": "Sure I'm just having a lot of chest pain and so I thought I should get it"
+      },
+      {
+        "id": 2,
+        "speaker": "Doctor",
+        "start": 22.5,
+        "end": 35.8,
+        "text": "checked out. Okay and before we start could you remind me of your gender and age?"
+      },
+      {
+        "id": 3,
+        "speaker": "Patient",
+        "start": 35.8,
+        "end": 39.0,
+        "text": "Sure I'm 39"
+      },
+      {
+        "id": 4,
+        "speaker": "Doctor",
+        "start": 39.0,
+        "end": 47.9,
+        "text": "Okay and so when did this chest pain start?"
+      },
+      {
+        "id": 5,
+        "speaker": "Patient",
+        "start": 47.9,
+        "end": 58.3,
+        "text": "It started last night but it's becoming sharper."
+      },
+      {
+        "id": 6,
+        "speaker": "Doctor",
+        "start": 58.3,
+        "end": 72.3,
+        "text": "Okay and where is this pain located?"
+      },
+      {
+        "id": 7,
+        "speaker": "Patient",
+        "start": 72.4,
+        "end": 81.9,
+        "text": "It's located on the left side of my chest."
+      },
+      {
+        "id": 8,
+        "speaker": "Doctor",
+        "start": 82.0,
+        "end": 91.8,
+        "text": "Okay and how long has it been going on for than if it started last night?"
+      },
+      {
+        "id": 9,
+        "speaker": "Patient",
+        "start": 92.0,
+        "end": 97.5,
+        "text": "So I guess it would be a couple of hours now maybe like eight."
+      },
+      {
+        "id": 10,
+        "speaker": "Doctor",
+        "start": 98.6,
+        "end": 101.8,
+        "text": "Okay has it been constant throughout that time or changing?"
+      },
+      {
+        "id": 11,
+        "speaker": "Patient",
+        "start": 102.0,
+        "end": 107.9,
+        "text": "I would say it's pretty constant yeah."
+      },
+      {
+        "id": 12,
+        "speaker": "Doctor",
+        "start": 109.1,
+        "end": 117.8,
+        "text": "Okay and how would you describe the pain?"
+      },
+      {
+        "id": 13,
+        "speaker": "Patient",
+        "start": 118.0,
+        "end": 121.9,
+        "text": "People will use words sometimes like sharp, burning, achy."
+      },
+      {
+        "id": 14,
+        "speaker": "Doctor",
+        "start": 122.1,
+        "end": 125.8,
+        "text": "I'd say it's pretty sharp yeah. Sharp okay. Anything that you've tried since last night that's made the pain better?"
+      },
+      {
+        "id": 15,
+        "speaker": "Patient",
+        "start": 126.0,
+        "end": 132.9,
+        "text": "Not laying down helps."
+      },
+      {
+        "id": 16,
+        "speaker": "Doctor",
+        "start": 134.1,
+        "end": 141.5,
+        "text": "Okay so do you find lying down makes the pain worse?"
+      },
+      {
+        "id": 17,
+        "speaker": "Patient",
+        "start": 143.0,
+        "end": 151.7,
+        "text": "Yes definitely."
+      },
+      {
+        "id": 18,
+        "speaker": "Doctor",
+        "start": 153.8,
+        "end": 161.4,
+        "text": "Okay and does anything else make it worse besides lying down?"
+      },
+      {
+        "id": 19,
+        "speaker": "Patient",
+        "start": 162.0,
+        "end": 173.9,
+        "text": "Not that I've noticed no."
+      },
+      {
+        "id": 20,
+        "speaker": "Doctor",
+        "start": 174.1,
+        "end": 180.7,
+        "text": "Okay has the pain been constant throughout that time or changing?"
+      },
+      {
+        "id": 21,
+        "speaker": "Patient",
+        "start": 181.8,
+        "end": 189.3,
+        "text": "It's pretty much consistent."
+      },
+      {
+        "id": 22,
+        "speaker": "Doctor",
+        "start": 191.5,
+        "end": 197.7,
+        "text": "Okay have you had any other associated symptoms like light-headedness or trouble breathing?"
+      },
+      {
+        "id": 23,
+        "speaker": "Patient",
+        "start": 198.8,
+        "end": 215.8,
+        "text": "I feel a little light-headed and I'm having some trouble breathing."
+      },
+      {
+        "id": 24,
+        "speaker": "Doctor",
+        "start": 216.4,
+        "end": 230.0,
+        "text": "Okay have you had any loss of consciousness?"
+      },
+      {
+        "id": 25,
+        "speaker": "Patient",
+        "start": 231.1,
+        "end": 239.1,
+        "text": "No."
+      },
+      {
+        "id": 26,
+        "speaker": "Doctor",
+        "start": 240.2,
+        "end": 252.3,
+        "text": "Have you been experiencing any racing heart or sweating?"
+      },
+      {
+        "id": 27,
+        "speaker": "Patient",
+        "start": 253.4,
+        "end": 259.0,
+        "text": "A little bit yeah."
+      },
+      {
+        "id": 28,
+        "speaker": "Doctor",
+        "start": 260.1,
+        "end": 263.7,
+        "text": "Okay have you been sweaty at all?"
+      },
+      {
+        "id": 29,
+        "speaker": "Patient",
+        "start": 264.8,
+        "end": 279.9,
+        "text": "Just from the short just from having issues breathing."
+      },
+      {
+        "id": 30,
+        "speaker": "Doctor",
+        "start": 281.0,
+        "end": 289.0,
+        "text": "Okay have you been experiencing any difficulty in taking deep breaths?"
+      },
+      {
+        "id": 31,
+        "speaker": "Patient",
+        "start": 291.1,
+        "end": 299.9,
+        "text": "Maybe taking a deep breath yeah."
+      },
+      {
+        "id": 32,
+        "speaker": "Doctor",
+        "start": 301.0,
+        "end": 312.1,
+        "text": "Okay has anything like this ever happened to you before?"
+      },
+      {
+        "id": 33,
+        "speaker": "Patient",
+        "start": 313.2,
+        "end": 321.9,
+        "text": "No I don't think so."
+      },
+      {
+        "id": 34,
+        "speaker": "Doctor",
+        "start": 323.0,
+        "end": 331.7,
+        "text": "Okay have any rashes or skin changes?"
+      },
+      {
+        "id": 35,
+        "speaker": "Patient",
+        "start": 332.8,
+        "end": 343.7,
+        "text": "No rash but I guess like my neck seems to be a little swollen."
+      },
+      {
+        "id": 36,
+        "speaker": "Doctor",
+        "start": 344.8,
+        "end": 353.9,
+        "text": "Okay do you have any pain in your neck?"
+      },
+      {
+        "id": 37,
+        "speaker": "Patient",
+        "start": 354.0,
+        "end": 363.7,
+        "text": "No."
+      },
+      {
+        "id": 38,
+        "speaker": "Doctor",
+        "start": 365.6,
+        "end": 375.1,
+        "text": "Okay has there been anything like this happened to you before or any accidents?"
+      },
+      {
+        "id": 39,
+        "speaker": "Patient",
+        "start": 376.0,
+        "end": 385.4,
+        "text": "No car accident or really jerked my neck."
+      },
+      {
+        "id": 40,
+        "speaker": "Doctor",
+        "start": 387.5,
+        "end": 399.4,
+        "text": "Okay do you have any past medical conditions?"
+      },
+      {
+        "id": 41,
+        "speaker": "Patient",
+        "start": 400.6,
+        "end": 407.0,
+        "text": "No."
+      },
+      {
+        "id": 42,
+        "speaker": "Doctor",
+        "start": 409.1,
+        "end": 417.9,
+        "text": "Any recent hospitalizations or surgeries?"
+      },
+      {
+        "id": 43,
+        "speaker": "Patient",
+        "start": 419.0,
+        "end": 424.8,
+        "text": "None."
+      },
+      {
+        "id": 44,
+        "speaker": "Doctor",
+        "start": 426.0,
+        "end": 435.8,
+        "text": "Do you take any medications regularly?"
+      },
+      {
+        "id": 45,
+        "speaker": "Patient",
+        "start": 437.1,
+        "end": 443.9,
+        "text": "No."
+      },
+      {
+        "id": 46,
+        "speaker": "Doctor",
+        "start": 444.0,
+        "end": 447.4,
+        "text": "Any allergies to medication?"
+      },
+      {
+        "id": 47,
+        "speaker": "Patient",
+        "start": 448.5,
+        "end": 457.2,
+        "text": "None."
+      },
+      {
+        "id": 48,
+        "speaker": "Doctor",
+        "start": 459.3,
+        "end": 469.1,
+        "text": "Are your immunizations up to date?"
+      },
+      {
+        "id": 49,
+        "speaker": "Patient",
+        "start": 470.0,
+        "end": 477.8,
+        "text": "They're all up to date."
+      },
+      {
+        "id": 50,
+        "speaker": "Doctor",
+        "start": 478.9,
+        "end": 485.5,
+        "text": "Could you tell me a little bit about your living situation currently?"
+      },
+      {
+        "id": 51,
+        "speaker": "Patient",
+        "start": 486.6,
+        "end": 493.8,
+        "text": "I live in an apartment by myself."
+      },
+      {
+        "id": 52,
+        "speaker": "Doctor",
+        "start": 495.0,
+        "end": 502.9,
+        "text": "How do you support yourself financially?"
+      },
+      {
+        "id": 53,
+        "speaker": "Patient",
+        "start": 504.0,
+        "end": 511.4,
+        "text": "I'm an accountant."
+      },
+      {
+        "id": 54,
+        "speaker": "Doctor",
+        "start": 512.5,
+        "end": 520.6,
+        "text": "Do you smoke cigarettes?"
+      },
+      {
+        "id": 55,
+        "speaker": "Patient",
+        "start": 521.7,
+        "end": 529.0,
+        "text": "I do."
+      },
+      {
+        "id": 56,
+        "speaker": "Doctor",
+        "start": 530.1,
+        "end": 538.2,
+        "text": "How much do you smoke?"
+      },
+      {
+        "id": 57,
+        "speaker": "Patient",
+        "start": 539.3,
+        "end": 547.8,
+        "text": "About a pack a day."
+      },
+      {
+        "id": 58,
+        "speaker": "Doctor",
+        "start": 549.0,
+        "end": 556.4,
+        "text": "For how long have you been smoking for?"
+      },
+      {
+        "id": 59,
+        "speaker": "Patient",
+        "start": 557.5,
+        "end": 565.8,
+        "text": "The past 10 to 15 years."
+      },
+      {
+        "id": 60,
+        "speaker": "Doctor",
+        "start": 566.9,
+        "end": 575.0,
+        "text": "Do you smoke cannabis?"
+      },
+      {
+        "id": 61,
+        "speaker": "Patient",
+        "start": 576.1,
+        "end": 583.7,
+        "text": "Sometimes."
+      },
+      {
+        "id": 62,
+        "speaker": "Doctor",
+        "start": 584.8,
+        "end": 592.8,
+        "text": "How much marijuana would you consume per week?"
+      },
+      {
+        "id": 63,
+        "speaker": "Patient",
+        "start": 593.9,
+        "end": 600.0,
+        "text": "About five milligrams not that much."
+      },
+      {
+        "id": 64,
+        "speaker": "Doctor",
+        "start": 601.1,
+        "end": 608.6,
+        "text": "Do you use any other recreational drugs like cocaine, crystal meth, or opioids?"
+      },
+      {
+        "id": 65,
+        "speaker": "Patient",
+        "start": 609.7,
+        "end": 616.0,
+        "text": "No."
+      },
+      {
+        "id": 66,
+        "speaker": "Doctor",
+        "start": 617.1,
+        "end": 624.6,
+        "text": "Do you drink alcohol and if so how much each week?"
+      },
+      {
+        "id": 67,
+        "speaker": "Patient",
+        "start": 625.9,
+        "end": 632.4,
+        "text": "About one or two drinks a day, which is about 10 drinks a week."
+      },
+      {
+        "id": 68,
+        "speaker": "Doctor",
+        "start": 633.5,
+        "end": 640.6,
+        "text": "Could you tell me briefly your diet and exercise routine?"
+      },
+      {
+        "id": 69,
+        "speaker": "Patient",
+        "start": 641.7,
+        "end": 650.0,
+        "text": "I try to eat healthy for dinner at least but most of my lunches are eaten out."
+      },
+      {
+        "id": 70,
+        "speaker": "Doctor",
+        "start": 651.1,
+        "end": 658.9,
+        "text": "And your exercise routine?"
+      },
+      {
+        "id": 71,
+        "speaker": "Patient",
+        "start": 659.0,
+        "end": 666.8,
+        "text": "I try to work out every other day, running for about half an hour."
+      },
+      {
+        "id": 72,
+        "speaker": "Doctor",
+        "start": 667.9,
+        "end": 675.5,
+        "text": "Okay and has anything like this happened in your family before?"
+      },
+      {
+        "id": 73,
+        "speaker": "Patient",
+        "start": 676.6,
+        "end": 684.0,
+        "text": "No."
+      },
+      {
+        "id": 74,
+        "speaker": "Doctor",
+        "start": 684.1,
+        "end": 692.0,
+        "text": "Has anybody had a heart attack or stroke in the family?"
+      },
+      {
+        "id": 75,
+        "speaker": "Patient",
+        "start": 693.2,
+        "end": 700.4,
+        "text": "My father had a heart attack when he was 45."
+      },
+      {
+        "id": 76,
+        "speaker": "Doctor",
+        "start": 701.5,
+        "end": 709.0,
+        "text": "Has anybody in the family have cholesterol problems or cancers?"
+      },
+      {
+        "id": 77,
+        "speaker": "Patient",
+        "start": 710.1,
+        "end": 717.9,
+        "text": "I think my father did."
+      },
+      {
+        "id": 78,
+        "speaker": "Doctor",
+        "start": 719.0,
+        "end": 725.5,
+        "text": "Okay has anybody had stroke in the family?"
+      },
+      {
+        "id": 79,
+        "speaker": "Patient",
+        "start": 726.6,
+        "end": 733.9,
+        "text": "No strokes."
+      }
+    ],
+    "summary": "The patient, a male accountant experiencing chest pain for approximately eight hours that started last night and is sharp on exertion but not constant otherwise with associated light-headedness and trouble breathing without loss of consciousness or other symptoms like sweating has no past medical conditions. He smokes about one pack per day (10 to 15 years), occasionally uses cannabis, drinks alcohol moderately (~1-2/day). His father had a heart attack at age 45 which may suggest familial risk factors.",
+    "encounter_type": "initial_consultation",
+    "additional_notes": "Lives alone in an apartment. Smokes about one pack per day for the past decade to date and occasionally uses cannabis (about five milligrams weekly). Drinks approximately ten drinks a week, eats out frequently with healthy dinner attempts but generally unhealthy lunches.",
+    "extraction_confidence": "medium",
+    "subjective": {
+      "chief_complaint": "chest pain",
+      "symptoms": [
+        "light-headedness",
+        "trouble breathing"
+      ],
+      "symptom_onset": "last night and worsening over time to approximately eight hours later",
+      "medical_history": [],
+      "current_medications": [],
+      "allergies": []
+    },
+    "objective": {
+      "physical_exam_findings": [],
+      "vital_signs": null
+    },
+    "assessment": {
+      "diagnosis": [
+        "chest pain"
+      ],
+      "differential_diagnosis": [
+        "angina",
+        "myocardial infarction",
+        "pulmonary embolism"
+      ]
+    },
+    "plan": {
+      "prescribed_medications": [],
+      "treatment_plan": [],
+      "investigations_ordered": [
+        "ECG",
+        "cardiac enzymes"
+      ],
+      "referrals": [],
+      "follow_up": null
+    }
+  }
+}
