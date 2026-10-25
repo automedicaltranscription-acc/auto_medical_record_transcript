@@ -1,6 +1,10 @@
-import json, os, io
+import json, os, io, sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+# Ensure UTF-8 output on Windows consoles
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 import bcrypt
 import jwt
@@ -215,7 +219,7 @@ def _ensure_users_file() -> None:
         try:
             with open(USERS_FILE, "w", encoding="utf-8") as f:
                 json.dump(_DEFAULT_USERS, f, indent=2)
-            print("[Auth] users.json created ✓")
+            print("[Auth] users.json created [OK]")
         except OSError:
             # Read-only filesystem (Vercel) — use in-memory store instead
             print("[Auth] Read-only filesystem — using in-memory user store (Vercel mode).")
@@ -415,6 +419,45 @@ async def download_csv(request: CSVRequest, _user: dict = Depends(get_current_us
     flat.to_csv(output, index=False)
 
     return PlainTextResponse(content=output.getvalue(), media_type="text/csv")
+
+
+# ─────────────────────────────────────────────
+#  ICD-10 Mapping (Jev System One)
+# ─────────────────────────────────────────────
+try:
+    from jev_icd10_mapper import map_soap_to_icd10
+except ImportError as _je:
+    print(f"[Config] jev_icd10_mapper unavailable ({_je}) — using fallback stub.")
+    def map_soap_to_icd10(soap_data, force_mock=False):
+        return {
+            "code": "R07",
+            "description": "Precordial / chest pain unspecified",
+            "confidence": 0.50,
+            "status": "FLAG_FOR_REVIEW",
+            "mode": "FALLBACK",
+            "top_probabilities": {"R07": 0.50}
+        }
+
+
+class ICD10Request(BaseModel):
+    soap_data: dict
+
+
+@app.post("/api/map-icd10")
+async def api_map_icd10(request: ICD10Request, _user: dict = Depends(get_current_user)):
+    """
+    Takes the structured SOAP JSON, evaluates diagnostic criteria against
+    the PERKI ICD-10 cardiovascular table using Jev System One model,
+    and returns the predicted code, confidence, and review status.
+    """
+    if not request.soap_data:
+        return JSONResponse(status_code=400, content={"error": "Empty SOAP data provided."})
+
+    try:
+        result = map_soap_to_icd10(request.soap_data)
+        return JSONResponse(content=result)
+    except Exception as e:
+        return JSONResponse(status_code=500, content={"error": f"ICD-10 mapping failed: {str(e)}"})
 
 
 # ─────────────────────────────────────────────

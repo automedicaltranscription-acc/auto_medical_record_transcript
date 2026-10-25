@@ -91,17 +91,266 @@ def load_cardiovascular_table():
     return categories, subcodes
 
 
+# ===========================================================================
+# Bilingual Clinical Concept Normalization & Expansion (Indonesian -> English)
+# ===========================================================================
+
+# Curated ontology of Indonesian cardiology symptoms, findings, and diagnoses
+# mapped to canonical English ICD-10 medical terminology.
+# Ordered by descending specificity/length so multi-word phrases match before substrings.
+INDONESIAN_TO_ENGLISH_CARDIOLOGY = [
+    # 1. Gagal Jantung / Heart Failure (I50)
+    ("gagal jantung kongestif kronik", "chronic congestive heart failure"),
+    ("gagal jantung kongestif akut", "acute congestive heart failure"),
+    ("gagal jantung kongestif", "congestive heart failure"),
+    ("gagal jantung kiri", "left ventricular failure left heart failure"),
+    ("gagal jantung kanan", "right ventricular failure right heart failure"),
+    ("gagal jantung akut", "acute heart failure"),
+    ("gagal jantung kronik", "chronic heart failure"),
+    ("gagal jantung", "heart failure congestive heart failure"),
+    ("edema paru akut", "acute pulmonary edema"),
+    ("edema paru", "pulmonary edema pulmonary congestion"),
+    ("syok kardiogenik", "cardiogenic shock"),
+
+    # 2. Sindrom Koroner Akut & Infark Miokard (I20 - I25)
+    ("infark miokard akut transmural", "acute transmural myocardial infarction STEMI"),
+    ("infark miokard akut subendokardial", "acute subendocardial myocardial infarction NSTEMI"),
+    ("infark miokard akut", "acute myocardial infarction STEMI NSTEMI"),
+    ("infark miokard", "myocardial infarction"),
+    ("serangan jantung", "acute myocardial infarction heart attack"),
+    ("sindrom koroner akut", "acute coronary syndrome"),
+    ("stemi", "st-elevation myocardial infarction transmural infarction"),
+    ("nstemi", "non-st-elevation myocardial infarction subendocardial infarction"),
+    ("angina pektoris tidak stabil", "unstable angina pectoris"),
+    ("angina pektoris stabil", "stable angina pectoris"),
+    ("angina pektoris", "angina pectoris ischemic heart disease"),
+    ("angina", "angina pectoris ischemic heart disease"),
+    ("penyakit jantung koroner", "coronary artery disease ischemic heart disease"),
+    ("penyakit jantung iskemik", "ischemic heart disease"),
+    ("aterosklerosis koroner", "coronary atherosclerosis artery disease"),
+
+    # 3. Hipertensi (I10 - I15)
+    ("krisis hipertensi", "hypertensive crisis emergency"),
+    ("hipertensi emergensi", "hypertensive emergency"),
+    ("hipertensi urgensi", "hypertensive urgency"),
+    ("penyakit jantung hipertensi", "hypertensive heart disease"),
+    ("hipertensi esensial", "essential primary hypertension"),
+    ("hipertensi primer", "essential primary hypertension"),
+    ("tekanan darah tinggi", "essential primary hypertension high blood pressure"),
+    ("darah tinggi", "essential primary hypertension high blood pressure"),
+    ("hipertensi", "essential primary hypertension"),
+    ("hipotensi", "hypotension low blood pressure"),
+
+    # 4. Aritmia & Gangguan Konduksi (I44 - I49)
+    ("fibrilasi atrium", "atrial fibrillation flutter"),
+    ("flutter atrium", "atrial flutter"),
+    ("fibrilasi ventrikel", "ventricular fibrillation flutter"),
+    ("takikardia ventrikel", "ventricular tachycardia"),
+    ("takikardia supraventrikular", "supraventricular tachycardia"),
+    ("aritmia jantung", "cardiac arrhythmia dysrhythmia"),
+    ("aritmia", "cardiac arrhythmia dysrhythmia"),
+    ("disritmia", "cardiac arrhythmia dysrhythmia"),
+    ("blok av total", "complete atrioventricular heart block third degree"),
+    ("blok av derajat dua", "second degree atrioventricular heart block"),
+    ("blok av derajat satu", "first degree atrioventricular heart block"),
+    ("blok av", "atrioventricular heart block conduction disorder"),
+    ("bradikardia", "bradycardia slow heart rate conduction disorder"),
+    ("takikardia", "tachycardia fast heart rate"),
+    ("ekstrasistol ventrikel", "premature ventricular contractions extrasystole"),
+    ("ekstrasistol atrium", "premature atrial contractions extrasystole"),
+
+    # 5. Penyakit Katup, Miokard, Perikard & Lainnya (I05 - I09, I30 - I42)
+    ("perikarditis akut", "acute pericarditis pericardium"),
+    ("perikarditis", "acute pericarditis pericardium"),
+    ("miokarditis akut", "acute myocarditis myocardium"),
+    ("miokarditis", "acute myocarditis myocardium"),
+    ("endokarditis infektif", "infective endocarditis"),
+    ("endokarditis", "infective endocarditis"),
+    ("kardiomiopati dilatasi", "dilated cardiomyopathy"),
+    ("kardiomiopati hipertrofik", "hypertrophic cardiomyopathy"),
+    ("kardiomiopati", "cardiomyopathy"),
+    ("penyakit katup jantung", "valvular heart disease"),
+    ("penyakit jantung rematik", "rheumatic heart disease"),
+    ("demam rematik", "rheumatic fever"),
+    ("stenosis mitral", "mitral valve stenosis"),
+    ("regurgitasi mitral", "mitral valve regurgitation"),
+    ("stenosis aorta", "aortic valve stenosis"),
+    ("regurgitasi aorta", "aortic valve regurgitation"),
+    ("kardiomegali", "cardiomegaly cardiac enlargement"),
+    ("diseksi aorta", "aortic dissection"),
+    ("aneurisma aorta", "aortic aneurysm"),
+
+    # 6. Gejala & Keluhan Pasien (Subjective / Symptoms)
+    ("nyeri dada sebelah kiri", "left-sided chest pain precordial pain"),
+    ("nyeri dada kiri", "left-sided chest pain precordial pain"),
+    ("nyeri dada prekordial", "precordial chest pain"),
+    ("nyeri dada seperti tertekan", "crushing chest pain pressure sensation angina"),
+    ("nyeri dada seperti tertindih", "crushing chest pain pressure sensation angina"),
+    ("nyeri dada menjalar ke lengan kiri", "chest pain radiating to left arm"),
+    ("nyeri dada menjalar", "radiating chest pain"),
+    ("nyeri dada", "chest pain precordial pain throat and chest pain"),
+    ("sakit dada", "chest pain precordial pain"),
+    ("dada terasa tertekan", "chest pressure crushing sensation heaviness"),
+    ("dada tertekan", "chest pressure crushing sensation heaviness"),
+    ("dada terasa berat", "heavy chest pressure sensation"),
+    ("dada tertindih beban berat", "crushing chest pain pressure"),
+    ("dada tertindih", "crushing chest pain pressure"),
+    ("sesak napas saat berbaring", "orthopnea dyspnea when lying flat"),
+    ("sesak nafas saat berbaring", "orthopnea dyspnea when lying flat"),
+    ("sesak saat tidur", "orthopnea dyspnea lying flat paroxysmal nocturnal dyspnea"),
+    ("sesak napas malam hari", "paroxysmal nocturnal dyspnea waking up breathless"),
+    ("sesak napas saat aktivitas", "dyspnea on exertion shortness of breath"),
+    ("sesak napas", "dyspnea shortness of breath difficulty breathing"),
+    ("sesak nafas", "dyspnea shortness of breath difficulty breathing"),
+    ("sulit bernapas", "dyspnea shortness of breath difficulty breathing"),
+    ("susah bernapas", "dyspnea shortness of breath difficulty breathing"),
+    ("ortopnea", "orthopnea dyspnea lying flat"),
+    ("kaki bengkak", "edema leg swelling peripheral edema ankles"),
+    ("bengkak pada kaki", "edema leg swelling peripheral edema ankles"),
+    ("bengkak di pergelangan kaki", "edema leg swelling ankle swelling"),
+    ("bengkak kedua kaki", "bilateral leg edema peripheral edema"),
+    ("bengkak tungkai", "peripheral edema leg swelling"),
+    ("jantung berdebar-debar", "palpitations racing heart tachycardia"),
+    ("jantung berdebar", "palpitations racing heart tachycardia"),
+    ("berdebar-debar", "palpitations racing heart tachycardia"),
+    ("berdebar", "palpitations racing heart tachycardia"),
+    ("deg-degan", "palpitations racing heart tachycardia"),
+    ("mudah lelah", "fatigue exercise intolerance weakness"),
+    ("cepat lelah", "fatigue exercise intolerance weakness"),
+    ("kelelahan", "fatigue exercise intolerance"),
+    ("keringat dingin", "diaphoresis cold sweat"),
+    ("pingsan", "syncope loss of consciousness fainting"),
+    ("sinkop", "syncope loss of consciousness fainting"),
+    ("pusing melayang", "presyncope lightheadedness dizziness"),
+    ("pusing kleyengan", "presyncope lightheadedness dizziness"),
+    ("pusing", "dizziness lightheadedness"),
+    ("mual muntah", "nausea vomiting"),
+    ("mual", "nausea"),
+    ("batuk darah", "hemoptysis coughing blood"),
+
+    # 7. Temuan Pemeriksaan Fisik (Objective Findings)
+    ("ronki basah halus basal", "fine wet crackles rales pulmonary congestion basal"),
+    ("ronki basah halus", "fine wet crackles rales pulmonary congestion"),
+    ("ronki basah", "crackles rales pulmonary congestion"),
+    ("ronki", "crackles rales pulmonary congestion"),
+    ("ronkhi", "crackles rales pulmonary congestion"),
+    ("suara napas basah", "pulmonary rales crackles"),
+    ("edema pretibial bilateral", "bilateral pretibial pitting edema peripheral edema"),
+    ("edema pretibial", "pretibial pitting edema peripheral edema"),
+    ("pitting edema", "pitting edema peripheral edema"),
+    ("peningkatan jvp", "elevated jugular venous pressure jvp"),
+    ("jvp meningkat", "elevated jugular venous pressure jvp"),
+    ("tekanan vena jugularis meningkat", "elevated jugular venous pressure jvp"),
+    ("bising jantung sistolik", "systolic cardiac murmur heart murmur"),
+    ("bising jantung diastolik", "diastolic cardiac murmur heart murmur"),
+    ("bising jantung", "cardiac murmur heart murmur"),
+    ("murmur", "cardiac murmur heart murmur"),
+    ("gallop s3", "s3 gallop third heart sound ventricular gallop"),
+    ("gallop s4", "s4 gallop fourth heart sound atrial gallop"),
+    ("irama gallop", "gallop rhythm third heart sound"),
+    ("gallop", "gallop rhythm third heart sound"),
+    ("iktus kordis bergeser", "displaced cardiac apex PMI cardiomegaly"),
+    ("batas jantung melebar", "cardiomegaly enlarged cardiac silhouette")
+]
+
+
+def flatten_soap_field(val):
+    """Recursively flatten strings, lists, or dicts into a clean space-separated string."""
+    if not val:
+        return ""
+    if isinstance(val, str):
+        return val.strip()
+    if isinstance(val, list):
+        items = [flatten_soap_field(x) for x in val if x]
+        return " ".join(items).strip()
+    if isinstance(val, dict):
+        items = [flatten_soap_field(v) for v in val.values() if v]
+        return " ".join(items).strip()
+    return str(val).strip()
+
+
+def normalize_and_expand_bilingual_soap(soap_data):
+    """
+    Normalizes SOAP text that may be in Indonesian or English.
+    Translates & augments clinical terms into canonical English medical concepts
+    so Jev System One and ICD-10 candidate criteria match with high calibration.
+    """
+    if not isinstance(soap_data, dict):
+        raw = str(soap_data or "")
+        return {
+            "assessment": raw,
+            "subjective": "",
+            "objective": "",
+            "plan": "",
+            "raw_assessment": raw,
+            "raw_subjective": "",
+            "raw_objective": "",
+            "clinical_concepts_en": [],
+            "detected_language": "en"
+        }
+
+    raw_assessment = flatten_soap_field(soap_data.get("assessment"))
+    raw_subjective = flatten_soap_field(soap_data.get("subjective"))
+    raw_objective = flatten_soap_field(soap_data.get("objective"))
+    raw_plan = flatten_soap_field(soap_data.get("plan"))
+
+    combined_raw = f"{raw_assessment} {raw_subjective} {raw_objective}".lower()
+
+    # Match Indonesian cardiology ontology
+    matched_concepts = []
+    matched_id_terms = []
+    for id_term, en_term in INDONESIAN_TO_ENGLISH_CARDIOLOGY:
+        if id_term in combined_raw:
+            matched_concepts.append(en_term)
+            matched_id_terms.append(id_term)
+
+    # Detect language: check for Indonesian medical terms or common stopwords
+    id_stopwords = {"dan", "yang", "pada", "saat", "dengan", "pasien", "sejak", "tidak", "mengeluh", "keluhan", "ada"}
+    words = set(re.findall(r"\w+", combined_raw))
+    is_indonesian = bool(matched_id_terms or (words & id_stopwords))
+
+    def expand_field(field_text):
+        if not field_text:
+            return ""
+        text_lower = field_text.lower()
+        field_matches = []
+        for id_term, en_term in INDONESIAN_TO_ENGLISH_CARDIOLOGY:
+            if id_term in text_lower:
+                field_matches.append(en_term)
+        if field_matches:
+            unique_en = list(dict.fromkeys(field_matches))
+            return f"{field_text} ({', '.join(unique_en)})"
+        return field_text
+
+    expanded_assessment = expand_field(raw_assessment)
+    expanded_subjective = expand_field(raw_subjective)
+    expanded_objective = expand_field(raw_objective)
+
+    return {
+        "assessment": expanded_assessment,
+        "subjective": expanded_subjective,
+        "objective": expanded_objective,
+        "plan": raw_plan,
+        "raw_assessment": raw_assessment,
+        "raw_subjective": raw_subjective,
+        "raw_objective": raw_objective,
+        "clinical_concepts_en": list(dict.fromkeys(matched_concepts)),
+        "detected_language": "id" if is_indonesian else "en"
+    }
+
+
 def get_candidate_criteria(soap_dict, categories, subcodes, max_options=30):
     """
     Select relevant candidate options for Jev's Choice question.
     Jev Choice supports up to 255 options. To maximize focus and avoid dilution,
     we retrieve the most contextually relevant categories + specific codes.
+    Supports both bilingual normalized state and raw SOAP input.
     """
-    # Combine text from SOAP to rank candidate matches
+    # Combine text from SOAP (checking both expanded and raw fields)
     full_text = " ".join([
-        str(soap_dict.get("assessment", "")),
-        str(soap_dict.get("objective", "")),
-        str(soap_dict.get("subjective", ""))
+        flatten_soap_field(soap_dict.get("assessment", "")),
+        flatten_soap_field(soap_dict.get("objective", "")),
+        flatten_soap_field(soap_dict.get("subjective", ""))
     ]).lower()
 
     # Pre-select based on clinical keywords & categories
@@ -162,20 +411,23 @@ def mock_jev_choice(state, criteria):
     Produces a calibrated softmax probability distribution and confidence score.
     Confidence formula from Paper 1: (K * p_max - 1) / (K - 1)
     """
-    # Combine state for scoring
-    assessment_text = str(state.get("assessment", "")).lower()
-    objective_text = str(state.get("objective", "")).lower()
-    subjective_text = str(state.get("subjective", "")).lower()
+    # Combine state for scoring (using flattened strings)
+    assessment_text = flatten_soap_field(state.get("assessment", "")).lower()
+    objective_text = flatten_soap_field(state.get("objective", "")).lower()
+    subjective_text = flatten_soap_field(state.get("subjective", "")).lower()
 
     raw_scores = {}
     for code, desc in criteria.items():
         desc_words = [w for w in re.findall(r"\w+", desc.lower()) if len(w) > 3]
         score = 0.5  # Base smoothing prior
 
-        # 1. Assessment section has highest weight (x5)
-        for w in desc_words:
-            if w in assessment_text:
-                score += 5.0
+        # Precision/coverage: favor specific direct diagnoses over lengthy complication clauses
+        matched_ass = [w for w in desc_words if w in assessment_text]
+        coverage = (len(matched_ass) / len(desc_words)) if desc_words else 0.0
+
+        # 1. Assessment section has highest weight (x5), boosted by coverage
+        if matched_ass:
+            score += sum(5.0 for _ in matched_ass) * (0.4 + 0.6 * coverage)
 
         # 2. Objective section (x2)
         for w in desc_words:
@@ -211,7 +463,8 @@ def mock_jev_choice(state, criteria):
         confidence = p_max
 
     # Heuristic adjustment: If Assessment was completely blank/empty, penalize confidence
-    if not assessment_text.strip() or assessment_text in ("none", "[]", "{}"):
+    raw_assessment_check = state.get("raw_assessment") if "raw_assessment" in state else assessment_text
+    if not str(raw_assessment_check).strip() or str(raw_assessment_check) in ("none", "[]", "{}"):
         confidence = min(confidence, 0.35)
 
     return {
@@ -270,6 +523,9 @@ def call_live_jev_api(api_key, state, criteria):
 def map_soap_to_icd10(soap_data, force_mock=False):
     """
     Main function to map a SOAP dictionary/object to an ICD-10 decision.
+    Automatically handles both Indonesian and English SOAP notes through
+    clinical concept normalization.
+    
     Returns:
         dict: {
             "code": str,
@@ -277,24 +533,40 @@ def map_soap_to_icd10(soap_data, force_mock=False):
             "confidence": float,
             "status": "AUTO_ACCEPT" | "FLAG_FOR_REVIEW",
             "mode": "LIVE_API" | "MOCK_SIMULATION",
+            "detected_language": "id" | "en",
+            "clinical_concepts": list,
             "top_probabilities": dict
         }
     """
-    categories, subcodes = load_cardiovascular_table()
-    criteria = get_candidate_criteria(soap_data, categories, subcodes)
+    # 1. Normalize and extract canonical bilingual clinical concepts
+    normalized_state = normalize_and_expand_bilingual_soap(soap_data)
 
+    # 2. Retrieve targeted ICD-10 candidates from the 367 PERKI cardiovascular table
+    categories, subcodes = load_cardiovascular_table()
+    criteria = get_candidate_criteria(normalized_state, categories, subcodes)
+
+    # 3. Determine execution mode (Live Jev System One vs Mock Simulation)
     api_key = None if force_mock else load_api_key()
     mode = "LIVE_API" if api_key else "MOCK_SIMULATION"
 
+    # Prepare structured state for Jev
+    jev_state = {
+        "assessment": normalized_state["assessment"],
+        "subjective": normalized_state["subjective"],
+        "objective": normalized_state["objective"],
+        "detected_language": normalized_state["detected_language"],
+        "clinical_concepts": normalized_state["clinical_concepts_en"]
+    }
+
     if mode == "LIVE_API":
         try:
-            result = call_live_jev_api(api_key, soap_data, criteria)
+            result = call_live_jev_api(api_key, jev_state, criteria)
         except Exception as e:
             print(f"[Warning] Live API call failed ({e}). Falling back to Mock Simulation.")
-            result = mock_jev_choice(soap_data, criteria)
+            result = mock_jev_choice(normalized_state, criteria)
             mode = "MOCK_SIMULATION (Fallback)"
     else:
-        result = mock_jev_choice(soap_data, criteria)
+        result = mock_jev_choice(normalized_state, criteria)
 
     choice_code = result.get("choice", "OTHER")
     conf = float(result.get("confidence", 0.0))
@@ -305,7 +577,7 @@ def map_soap_to_icd10(soap_data, force_mock=False):
     all_codes["R07"] = "Precordial / chest pain unspecified"
     code_desc = all_codes.get(choice_code, criteria.get(choice_code, "Unspecified"))
 
-    # Confidence-gating check
+    # Confidence-gating check (Paper 1 selective prediction threshold)
     status = "AUTO_ACCEPT" if conf >= CONFIDENCE_THRESHOLD else "FLAG_FOR_REVIEW"
 
     # Sort top 5 probabilities for visibility
@@ -318,6 +590,8 @@ def map_soap_to_icd10(soap_data, force_mock=False):
         "confidence": conf,
         "status": status,
         "mode": mode,
+        "detected_language": normalized_state.get("detected_language", "en"),
+        "clinical_concepts": normalized_state.get("clinical_concepts_en", []),
         "top_probabilities": sorted_probs
     }
 

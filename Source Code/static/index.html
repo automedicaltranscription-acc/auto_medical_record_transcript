@@ -69,29 +69,55 @@
                     </div>
                 </section>
 
-                <!-- Analysis Panel -->
-                <section class="panel analysis-panel">
-                    <div class="panel-header">
-                        <h2><i class="fa-solid fa-file-medical"></i> SOAP Report</h2>
-                        <div class="panel-header-actions" style="display: none;" id="report-actions">
-                            <button id="btn-edit" class="btn secondary">
-                                <i class="fa-solid fa-pen-to-square"></i> Edit Report
-                            </button>
-                            <button id="btn-download" class="btn secondary">
-                                <i class="fa-solid fa-download"></i> CSV
-                            </button>
+                <!-- Right Column Stack: SOAP (70%) + ICD-10 (30%) -->
+                <div class="right-column-stack">
+                    <!-- SOAP Report Panel (70%) -->
+                    <section class="panel analysis-panel soap-panel">
+                        <div class="panel-header">
+                            <h2><i class="fa-solid fa-file-medical"></i> SOAP Report</h2>
+                            <div class="panel-header-actions" style="display: none;" id="report-actions">
+                                <button id="btn-edit" class="btn secondary">
+                                    <i class="fa-solid fa-pen-to-square"></i> Edit Report
+                                </button>
+                                <button id="btn-download" class="btn secondary">
+                                    <i class="fa-solid fa-download"></i> CSV
+                                </button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="panel-body">
-                        <div id="loading-overlay" class="loading-overlay" style="display: none;">
-                            <div class="spinner"></div>
-                            <p>Gemini is analyzing the consultation...</p>
+                        <div class="panel-body">
+                            <div id="loading-overlay" class="loading-overlay" style="display: none;">
+                                <div class="spinner"></div>
+                                <p>Gemini is analyzing the consultation...</p>
+                            </div>
+                            <div id="report-content" class="report-content">
+                                <p class="placeholder">The medical report will appear here after analysis.</p>
+                            </div>
                         </div>
-                        <div id="report-content" class="report-content">
-                            <p class="placeholder">The medical report will appear here after analysis.</p>
+                    </section>
+
+                    <!-- ICD-10 Coding Panel (30%) -->
+                    <section class="panel icd10-panel">
+                        <div class="panel-header">
+                            <h2><i class="fa-solid fa-tags"></i> ICD-10 Coding</h2>
+                            <div class="panel-header-actions">
+                                <button id="btn-map-icd10" class="btn primary btn-sm" disabled title="Generate SOAP report first">
+                                    <i class="fa-solid fa-wand-magic-sparkles"></i> Map to ICD-10
+                                </button>
+                            </div>
                         </div>
-                    </div>
-                </section>
+                        <div class="panel-body icd10-body">
+                            <div id="icd10-loading" class="icd10-loading" style="display: none;">
+                                <div class="spinner spinner-sm"></div>
+                                <p>Jev System One is evaluating diagnostic criteria...</p>
+                            </div>
+                            <div id="icd10-content" class="icd10-content">
+                                <p class="placeholder icd10-placeholder">
+                                    <i class="fa-solid fa-stethoscope"></i> Complete consultation and analyze SOAP report, then click "Map to ICD-10".
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </div>
         </main>
     </div>

@@ -54,6 +54,9 @@ const reportContent = document.getElementById('report-content');
 const btnDownload = document.getElementById('btn-download');
 const btnEdit = document.getElementById('btn-edit');
 const reportActions = document.getElementById('report-actions');
+const btnMapIcd10 = document.getElementById('btn-map-icd10');
+const icd10Loading = document.getElementById('icd10-loading');
+const icd10Content = document.getElementById('icd10-content');
 
 const THEME_STORAGE_KEY = 'medical-stt-theme';
 const DEFAULT_THEME = 'dark';
@@ -159,6 +162,15 @@ btnStart.addEventListener('click', () => {
         return;
     }
     recognition.lang = langSelect.value;
+    // Reset ICD-10 panel for new recording
+    if (btnMapIcd10) {
+        btnMapIcd10.disabled = true;
+        btnMapIcd10.innerHTML = '<i class="fa-solid fa-wand-magic-sparkles"></i> Map to ICD-10';
+        btnMapIcd10.title = "Generate SOAP report first";
+    }
+    if (icd10Content) {
+        icd10Content.innerHTML = '<p class="placeholder icd10-placeholder"><i class="fa-solid fa-stethoscope"></i> Complete consultation and analyze SOAP report, then click "Map to ICD-10".</p>';
+    }
     try {
         recognition.start();
     } catch (e) {
@@ -316,6 +328,15 @@ async function analyzeText(text) {
         renderSoapReport(data);
         reportActions.style.display = 'flex';
         statusText.textContent = 'Analysis Complete';
+
+        // Enable ICD-10 mapping button
+        if (btnMapIcd10) {
+            btnMapIcd10.disabled = false;
+            btnMapIcd10.title = "Click to map SOAP report to ICD-10 using Jev System One";
+        }
+        if (icd10Content && !icd10Content.querySelector('.icd10-result-card')) {
+            icd10Content.innerHTML = '<p class="placeholder icd10-placeholder" style="color: var(--primary);"><i class="fa-solid fa-wand-magic-sparkles"></i> SOAP report ready! Click "Map to ICD-10" above to predict diagnostic code.</p>';
+        }
     } catch (error) {
         console.error("Analysis failed", error);
         reportContent.innerHTML = `<p style="color: var(--danger)">Error during analysis: ${error.message}</p>`;
@@ -431,3 +452,99 @@ function makeRow(label, value, path) {
         </div>
     `;
 }
+
+// ── ICD-10 Mapping Logic ─────────────────────────────────────────────────────
+
+if (btnMapIcd10) {
+    btnMapIcd10.addEventListener('click', async () => {
+        if (!currentSoapData) {
+            alert('Please generate a SOAP report first.');
+            return;
+        }
+        if (isEditMode) {
+            syncEditsToData();
+        }
+        await mapSoapToIcd10(currentSoapData);
+    });
+}
+
+async function mapSoapToIcd10(soapData) {
+    if (!icd10Loading || !icd10Content) return;
+    icd10Loading.style.display = 'flex';
+    icd10Content.style.display = 'none';
+    if (btnMapIcd10) btnMapIcd10.disabled = true;
+
+    try {
+        const response = await fetch('/api/map-icd10', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ soap_data: soapData })
+        });
+
+        if (!response.ok) {
+            const errJson = await response.json().catch(() => ({}));
+            throw new Error(errJson.error || `Server error: ${response.statusText}`);
+        }
+
+        const data = await response.json();
+        renderIcd10Result(data);
+        if (btnMapIcd10) {
+            btnMapIcd10.innerHTML = '<i class="fa-solid fa-rotate-right"></i> Re-Map';
+        }
+    } catch (err) {
+        console.error("ICD-10 mapping error", err);
+        icd10Content.innerHTML = `<p style="color: var(--danger); text-align: center; font-size: 0.85rem;"><i class="fa-solid fa-triangle-exclamation"></i> ${escapeHtml(err.message)}</p>`;
+        icd10Content.style.display = 'block';
+        if (btnMapIcd10) {
+            btnMapIcd10.innerHTML = '<i class="fa-solid fa-rotate-right"></i> Retry';
+        }
+    } finally {
+        icd10Loading.style.display = 'none';
+        if (btnMapIcd10) btnMapIcd10.disabled = false;
+    }
+}
+
+function renderIcd10Result(data) {
+    if (!icd10Content) return;
+    const isAccepted = data.status === 'AUTO_ACCEPT';
+    const confVal = typeof data.confidence === 'number' ? data.confidence : 0.0;
+    const confPct = Math.round(confVal * 100);
+    const confDisplay = (confVal * 100).toFixed(1);
+
+    const html = `
+        <div class="icd10-result-card">
+            <div class="icd10-header-row">
+                <span class="icd10-code-badge">${escapeHtml(data.code || 'N/A')}</span>
+                <span class="icd10-decision-pill ${isAccepted ? 'decision-accept' : 'decision-review'}">
+                    <i class="fa-solid ${isAccepted ? 'fa-circle-check' : 'fa-triangle-exclamation'}"></i>
+                    ${isAccepted ? 'Auto-Accepted' : 'Flagged for Review'}
+                </span>
+            </div>
+            <div class="icd10-desc-title">${escapeHtml(data.description || 'Unspecified Condition')}</div>
+            <div class="icd10-confidence-wrap">
+                <div class="confidence-labels">
+                    <span>Model Confidence (Calibrated)</span>
+                    <span class="confidence-val">${confDisplay}%</span>
+                </div>
+                <div class="confidence-bar-bg">
+                    <div class="confidence-bar-fill ${isAccepted ? '' : 'bar-warning'}" style="width: ${Math.max(6, confPct)}%"></div>
+                </div>
+            </div>
+            <div class="icd10-footer-meta">
+                <span><i class="fa-solid fa-brain"></i> ${escapeHtml(data.mode || 'Jev System One')}</span>
+                ${data.detected_language === 'id' ? '<span title="Indonesian clinical concepts normalized to canonical English ICD-10 ontology"><i class="fa-solid fa-language"></i> ID → EN Normalized</span>' : '<span><i class="fa-solid fa-globe"></i> English</span>'}
+                <span>Threshold: ≥60%</span>
+            </div>
+        </div>
+    `;
+    icd10Content.innerHTML = html;
+    icd10Content.style.display = 'block';
+}
+
+function escapeHtml(text) {
+    if (!text) return '';
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
