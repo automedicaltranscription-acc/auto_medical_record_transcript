@@ -1,127 +1,127 @@
-[0.0s->2.8s] Speaker: What brings you in here today?
-[2.8s->7.9s] Speaker: I'm just having this really sharp pain in my chest and I'm scared.
-[7.9s->11.5s] Speaker: I think I'm having a heart attack.
-[11.5s->15.2s] Speaker: Oh wow, that must be really scary.
-[15.2s->15.9s] Speaker: Yeah.
-[15.9s->19.6s] Speaker: When did this pain start?
-[19.6s->23.3s] Speaker: About three days ago.
-[23.3s->25.2s] Speaker: Three days ago, okay.
-[25.2s->32.0s] Speaker: And where exactly in your chest do you feel it?
-[32.0s->35.2s] Speaker: Kind of right here, right over my heart, I think.
-[35.3s->38.4s] Speaker: That's where it's the worst.
-[38.4s->41.2s] Speaker: Okay, and what kind of pain is it?
-[41.2s->46.2s] Speaker: Is it more like a dull pressure pain or is it a sharp pain?
-[46.2s->48.2s] Speaker: How would you describe it?
-[48.2s->51.6s] Speaker: I'd say it's a sharp pain.
-[51.6s->53.2s] Speaker: A sharp pain?
-[53.2s->54.7s] Speaker: Okay.
-[54.7s->58.4s] Speaker: And so it started three days ago.
-[58.4s->62.7s] Speaker: Has it been coming and going or has it been constant?
-[62.7s->67.8s] Speaker: It just lasts for a few seconds and then it goes away.
-[67.8s->68.8s] Speaker: Okay.
-[68.8s->75.2s] Speaker: And does the pain come on when you're doing any activities or when does the pain usually
-[75.2s->77.1s] Speaker: come on?
-[77.1s->82.1s] Speaker: It's usually worse when I'm coughing or I'm lying down.
-[82.1s->86.0s] Speaker: Yeah.
-[86.0s->93.6s] Speaker: And does it improve with any positional changes at all or anything that you do that does it
-[93.6s->94.6s] Speaker: help?
-[94.6s->101.6s] Speaker: When I lean forward, it actually does get better if I think about it, yeah.
-[101.6s->102.8s] Speaker: Okay.
-[102.8s->107.2s] Speaker: And has this ever happened to you before?
-[107.2s->108.7s] Speaker: No.
-[108.7s->111.2s] Speaker: No, it hasn't.
-[111.2s->112.0s] Speaker: Okay.
-[112.0s->117.5s] Speaker: And on a scale of one to ten, one being the least amount of pain you felt and ten being
-[117.5s->119.8s] Speaker: the worst, how much would you rate it?
-[119.8s->122.8s] Speaker: I'd say a six out of ten.
-[122.8s->123.9s] Speaker: Okay.
-[123.9s->131.1s] Speaker: And does the pain move anywhere in your chest or does it stay in the same spot?
-[131.1s->136.4s] Speaker: Yeah, I think it kind of goes to my neck sometimes.
-[136.4s->141.0s] Speaker: And do you have any other symptoms like do you have any shortness of breath, dizziness,
-[141.0s->142.3s] Speaker: anything like that?
-[142.3s->144.1s] Speaker: No, I don't.
-[144.1s->148.1s] Speaker: Any palpitations?
-[148.1s->149.7s] Speaker: No.
-[149.7s->152.3s] Speaker: Okay.
-[152.3s->158.3s] Speaker: And other than that, have you been having any other symptoms at all besides the pain?
-[158.3s->159.6s] Speaker: No, nothing else.
-[159.6s->165.8s] Speaker: I just have these short episodes of pain that last a couple of seconds.
-[165.8s->167.3s] Speaker: Okay.
-[168.0s->172.0s] Speaker: Have you tried like any medications that have helped the pain?
-[172.0s->178.3s] Speaker: Yeah, I took some Tylenol and that did help.
-[178.3s->179.3s] Speaker: Okay.
-[179.3s->181.4s] Speaker: I took it once yesterday.
-[181.4s->183.2s] Speaker: All right.
-[183.2s->191.1s] Speaker: Any recent injuries to the area like do you have any falls or anything like that?
-[191.1s->195.0s] Speaker: No, no I haven't.
-[195.0s->200.9s] Speaker: Any headaches, nausea or vomiting, fevers or chills, any of those symptoms?
-[200.9s->204.0s] Speaker: No.
-[204.0s->209.2s] Speaker: Any cough, runny nose, any viral symptoms?
-[209.2s->218.6s] Speaker: No, well not right now but I did have a flu last week.
-[218.6s->223.4s] Speaker: I had a fever, I had a runny nose.
-[223.4s->228.4s] Speaker: I did have a bit of a cough and I was feeling super tired but not anymore.
-[228.4s->230.7s] Speaker: I'm okay now.
-[230.7s->232.2s] Speaker: Okay.
-[232.2s->237.9s] Speaker: And have you at all had any dizziness or have you fainted at all?
-[237.9s->239.3s] Speaker: No.
-[239.3s->240.8s] Speaker: Okay.
-[240.8s->247.3s] Speaker: Have you been noticing any kind of weakness or numbness?
-[247.3s->248.9s] Speaker: No.
-[248.9s->250.1s] Speaker: No?
-[250.1s->251.4s] Speaker: Okay.
-[251.4s->256.8s] Speaker: In terms of your past medical history, do you have any medical conditions like diabetes,
-[256.8s->260.6s] Speaker: high blood pressure, any other diagnoses?
-[260.6s->265.3s] Speaker: No, I'm a pretty healthy 25-year-old.
-[265.3s->266.6s] Speaker: Okay.
-[266.6s->269.4s] Speaker: Do you take any medications?
-[269.4s->272.7s] Speaker: I sometimes take Tylenol.
-[272.7s->273.7s] Speaker: Okay.
-[273.7s->276.3s] Speaker: And any allergies at all?
-[276.3s->278.6s] Speaker: No.
-[278.6s->282.1s] Speaker: Okay.
-[282.1s->287.2s] Speaker: And any previous surgeries?
-[287.2s->290.1s] Speaker: No, no, no surgeries.
-[290.1s->294.8s] Speaker: Do you have any family history of any heart conditions or any cancers or anything like
-[294.8s->296.6s] Speaker: that?
-[297.6s->306.0s] Speaker: Yeah, my father, he had a heart attack two weeks ago and he passed away and I'm worried
-[306.0s->308.3s] Speaker: I'm having a heart attack too.
-[308.3s->310.6s] Speaker: So sorry.
-[310.6s->312.1s] Speaker: It was just two weeks ago?
-[312.1s->313.1s] Speaker: Yeah.
-[313.1s->321.1s] Speaker: I'm so sorry to hear that and it must be a really difficult time for you right now.
-[321.1s->322.8s] Speaker: Mm-hmm.
-[322.8s->323.8s] Speaker: Okay.
-[323.8s->326.7s] Speaker: So you're worried you might be having a heart attack as well?
-[326.7s->328.3s] Speaker: Yeah.
-[328.3s->329.3s] Speaker: Okay.
-[329.4s->335.4s] Speaker: Yeah, we can definitely do some tests and see what's going on.
-[335.4s->341.5s] Speaker: I just have a few more questions and then I'll just get to some of the management and
-[341.5s->344.9s] Speaker: what we'll be doing for you in the future.
-[344.9s->348.4s] Speaker: So currently right now, do you work at all?
-[348.4s->352.2s] Speaker: No, I'm a student.
-[352.2s->358.0s] Speaker: I, well, it's a part-time job, I do work as a postman.
-[358.0s->359.0s] Speaker: Okay.
-[359.0s->360.9s] Speaker: And where are you a student?
-[360.9s->362.3s] Speaker: What do you do?
-[362.3s->366.7s] Speaker: I'm studying engineering at Western.
-[366.7s->368.4s] Speaker: All right.
-[368.4s->370.0s] Speaker: And currently where do you live?
-[370.0s->374.3s] Speaker: Do you live in student housing, apartment, or home or house?
-[374.3s->384.0s] Speaker: I live with my parents, well, my mom now, in a house.
-[384.0s->386.4s] Speaker: And do you drink at all, alcohol?
-[386.4s->393.0s] Speaker: I drink occasionally, maybe one or two drinks on the weekends.
-[393.0s->394.0s] Speaker: Okay.
-[394.0s->397.9s] Speaker: And any recreational drug use like marijuana or cocaine?
-[398.4s->400.6s] Speaker: No.
-[400.6s->401.6s] Speaker: And do you smoke?
-[401.6s->402.6s] Speaker: No.
-[402.6s->407.4s] Speaker: All right.
-[407.4s->409.8s] Speaker: So those are all the questions we had for you today.
-[409.8s->416.4s] Speaker: And yeah, it must be really difficult and scary for you right now, but we'll make sure
-[416.4s->419.4s] Speaker: to get to the bottom of this, see what's going on.
-[419.4s->429.7s] Speaker: So what we can do is get you an ECG to see how your heart is functioning and then see
-[429.8s->434.0s] Speaker: any blood work if we need it for the future.
-[434.0s->442.1s] Speaker: But yeah, right now, I would say try not to worry too much about it right now and see
-[442.1s->444.3s] Speaker: what some of those tests come back.
-[444.3s->446.7s] Speaker: Thank you.
-[446.7s->448.3s] Speaker: So yeah, you're welcome.
+[0.0s->2.8s] Doctor: What brings you in here today?
+[2.8s->7.9s] Patient: I'm just having this really sharp pain in my chest and I'm scared.
+[7.9s->11.5s] Patient: I think I'm having a heart attack.
+[11.5s->15.2s] Doctor: Oh wow, that must be really scary.
+[15.2s->15.9s] Patient: Yeah.
+[15.9s->19.6s] Doctor: When did this pain start?
+[19.6s->23.3s] Patient: About three days ago.
+[23.3s->25.2s] Doctor: Three days ago, okay.
+[25.2s->32.0s] Doctor: And where exactly in your chest do you feel it?
+[32.0s->35.2s] Patient: Kind of right here, right over my heart, I think.
+[35.3s->38.4s] Patient: That's where it's the worst.
+[38.4s->41.2s] Doctor: Okay, and what kind of pain is it?
+[41.2s->46.2s] Doctor: Is it more like a dull pressure pain or is it a sharp pain?
+[46.2s->48.2s] Doctor: How would you describe it?
+[48.2s->51.6s] Patient: I'd say it's a sharp pain.
+[51.6s->53.2s] Doctor: A sharp pain?
+[53.2s->54.7s] Doctor: Okay.
+[54.7s->58.4s] Doctor: And so it started three days ago.
+[58.4s->62.7s] Doctor: Has it been coming and going or has it been constant?
+[62.7s->67.8s] Patient: It just lasts for a few seconds and then it goes away.
+[67.8s->68.8s] Doctor: Okay.
+[68.8s->75.2s] Doctor: And does the pain come on when you're doing any activities or when does the pain usually
+[75.2s->77.1s] Doctor: come on?
+[77.1s->82.1s] Patient: It's usually worse when I'm coughing or I'm lying down.
+[82.1s->86.0s] Doctor: Yeah.
+[86.0s->93.6s] Doctor: And does it improve with any positional changes at all or anything that you do that does it
+[93.6s->94.6s] Doctor: help?
+[94.6s->101.6s] Patient: When I lean forward, it actually does get better if I think about it, yeah.
+[101.6s->102.8s] Doctor: Okay.
+[102.8s->107.2s] Doctor: And has this ever happened to you before?
+[107.2s->108.7s] Patient: No.
+[108.7s->111.2s] Doctor: No, it hasn't.
+[111.2s->112.0s] Doctor: Okay.
+[112.0s->117.5s] Doctor: And on a scale of one to ten, one being the least amount of pain you felt and ten being
+[117.5s->119.8s] Doctor: the worst, how much would you rate it?
+[119.8s->122.8s] Patient: I'd say a six out of ten.
+[122.8s->123.9s] Doctor: Okay.
+[123.9s->131.1s] Doctor: And does the pain move anywhere in your chest or does it stay in the same spot?
+[131.1s->136.4s] Patient: Yeah, I think it kind of goes to my neck sometimes.
+[136.4s->141.0s] Doctor: And do you have any other symptoms like do you have any shortness of breath, dizziness,
+[141.0s->142.3s] Doctor: anything like that?
+[142.3s->144.1s] Patient: No, I don't.
+[144.1s->148.1s] Doctor: Any palpitations?
+[148.1s->149.7s] Patient: No.
+[149.7s->152.3s] Doctor: Okay.
+[152.3s->158.3s] Doctor: And other than that, have you been having any other symptoms at all besides the pain?
+[158.3s->159.6s] Patient: No, nothing else.
+[159.6s->165.8s] Patient: I just have these short episodes of pain that last a couple of seconds.
+[165.8s->167.3s] Doctor: Okay.
+[168.0s->172.0s] Doctor: Have you tried like any medications that have helped the pain?
+[172.0s->178.3s] Patient: Yeah, I took some Tylenol and that did help.
+[178.3s->179.3s] Doctor: Okay.
+[179.3s->181.4s] Patient: I took it once yesterday.
+[181.4s->183.2s] Doctor: All right.
+[183.2s->191.1s] Doctor: Any recent injuries to the area like do you have any falls or anything like that?
+[191.1s->195.0s] Patient: No, no I haven't.
+[195.0s->200.9s] Doctor: Any headaches, nausea or vomiting, fevers or chills, any of those symptoms?
+[200.9s->204.0s] Patient: No.
+[204.0s->209.2s] Doctor: Any cough, runny nose, any viral symptoms?
+[209.2s->218.6s] Patient: No, well not right now but I did have a flu last week.
+[218.6s->223.4s] Patient: I had a fever, I had a runny nose.
+[223.4s->228.4s] Patient: I did have a bit of a cough and I was feeling super tired but not anymore.
+[228.4s->230.7s] Patient: I'm okay now.
+[230.7s->232.2s] Doctor: Okay.
+[232.2s->237.9s] Doctor: And have you at all had any dizziness or have you fainted at all?
+[237.9s->239.3s] Patient: No.
+[239.3s->240.8s] Doctor: Okay.
+[240.8s->247.3s] Doctor: Have you been noticing any kind of weakness or numbness?
+[247.3s->248.9s] Patient: No.
+[248.9s->250.1s] Doctor: No?
+[250.1s->251.4s] Doctor: Okay.
+[251.4s->256.8s] Doctor: In terms of your past medical history, do you have any medical conditions like diabetes,
+[256.8s->260.6s] Doctor: high blood pressure, any other diagnoses?
+[260.6s->265.3s] Patient: No, I'm a pretty healthy 25-year-old.
+[265.3s->266.6s] Doctor: Okay.
+[266.6s->269.4s] Doctor: Do you take any medications?
+[269.4s->272.7s] Patient: I sometimes take Tylenol.
+[272.7s->273.7s] Doctor: Okay.
+[273.7s->276.3s] Doctor: And any allergies at all?
+[276.3s->278.6s] Patient: No.
+[278.6s->282.1s] Doctor: Okay.
+[282.1s->287.2s] Doctor: And any previous surgeries?
+[287.2s->290.1s] Patient: No, no, no surgeries.
+[290.1s->294.8s] Doctor: Do you have any family history of any heart conditions or any cancers or anything like
+[294.8s->296.6s] Doctor: that?
+[297.6s->306.0s] Patient: Yeah, my father, he had a heart attack two weeks ago and he passed away and I'm worried
+[306.0s->308.3s] Patient: I'm having a heart attack too.
+[308.3s->310.6s] Doctor: So sorry.
+[310.6s->312.1s] Doctor: It was just two weeks ago?
+[312.1s->313.1s] Patient: Yeah.
+[313.1s->321.1s] Doctor: I'm so sorry to hear that and it must be a really difficult time for you right now.
+[321.1s->322.8s] Patient: Mm-hmm.
+[322.8s->323.8s] Doctor: Okay.
+[323.8s->326.7s] Doctor: So you're worried you might be having a heart attack as well?
+[326.7s->328.3s] Patient: Yeah.
+[328.3s->329.3s] Doctor: Okay.
+[329.4s->335.4s] Doctor: Yeah, we can definitely do some tests and see what's going on.
+[335.4s->341.5s] Doctor: I just have a few more questions and then I'll just get to some of the management and
+[341.5s->344.9s] Doctor: what we'll be doing for you in the future.
+[344.9s->348.4s] Doctor: So currently right now, do you work at all?
+[348.4s->352.2s] Patient: No, I'm a student.
+[352.2s->358.0s] Patient: I, well, it's a part-time job, I do work as a postman.
+[358.0s->359.0s] Doctor: Okay.
+[359.0s->360.9s] Doctor: And where are you a student?
+[360.9s->362.3s] Doctor: What do you do?
+[362.3s->366.7s] Patient: I'm studying engineering at Western.
+[366.7s->368.4s] Doctor: All right.
+[368.4s->370.0s] Doctor: And currently where do you live?
+[370.0s->374.3s] Doctor: Do you live in student housing, apartment, or home or house?
+[374.3s->384.0s] Patient: I live with my parents, well, my mom now, in a house.
+[384.0s->386.4s] Doctor: And do you drink at all, alcohol?
+[386.4s->393.0s] Patient: I drink occasionally, maybe one or two drinks on the weekends.
+[393.0s->394.0s] Doctor: Okay.
+[394.0s->397.9s] Doctor: And any recreational drug use like marijuana or cocaine?
+[398.4s->400.6s] Patient: No.
+[400.6s->401.6s] Doctor: And do you smoke?
+[401.6s->402.6s] Patient: No.
+[402.6s->407.4s] Doctor: All right.
+[407.4s->409.8s] Doctor: So those are all the questions we had for you today.
+[409.8s->416.4s] Doctor: And yeah, it must be really difficult and scary for you right now, but we'll make sure
+[416.4s->419.4s] Doctor: to get to the bottom of this, see what's going on.
+[419.4s->429.7s] Doctor: So what we can do is get you an ECG to see how your heart is functioning and then see
+[429.8s->434.0s] Doctor: any blood work if we need it for the future.
+[434.0s->442.1s] Doctor: But yeah, right now, I would say try not to worry too much about it right now and see
+[442.1s->444.3s] Doctor: what some of those tests come back.
+[444.3s->446.7s] Patient: Thank you.
+[446.7s->448.3s] Doctor: So yeah, you're welcome.
